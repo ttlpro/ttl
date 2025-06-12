@@ -1,0 +1,38 @@
+{
+  "accounts": [
+    {
+      "id": "default",
+      "name": "Mặc định",
+      "description": "Thư mục mặc định cho accounts",
+      "color": "#6B7280",
+      "createdAt": "2025-06-01T13:19:31.288Z",
+      "updatedAt": "2025-06-01T13:19:31.288Z"
+    }
+  ],
+  "proxies": [
+    {
+      "id": "default",
+      "name": "Mặc định",
+      "description": "Thư mục mặc định cho proxies",
+      "color": "#6B7280",
+      "createdAt": "2025-06-01T13:19:31.288Z",
+      "updatedAt": "2025-06-01T13:19:31.288Z"
+    },
+    {
+      "id": "premium",
+      "name": "Premium",
+      "description": "Proxy premium chất lượng cao",
+      "color": "#10B981",
+      "createdAt": "2025-06-01T13:19:31.288Z",
+      "updatedAt": "2025-06-01T13:19:31.288Z"
+    },
+    {
+      "id": "datacenter",
+      "name": "Datacenter",
+      "description": "Proxy datacenter tốc độ cao",
+      "color": "#3B82F6",
+      "createdAt": "2025-06-01T13:19:31.288Z",
+      "updatedAt": "2025-06-01T13:19:31.288Z"
+    }
+  ]
+}

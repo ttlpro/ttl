@@ -1,0 +1,1377 @@
+{
+  "app": {
+    "title": "TTL TikTok 直播观看器",
+    "name": "TTL",
+    "subtitle": "TikTok 直播观看器",
+    "titleLabel": "应用标题",
+    "nameLabel": "应用名称",
+    "subtitleLabel": "应用副标题"
+  },
+  "auth": {
+    "title": "身份验证",
+    "login": {
+      "title": "登录",
+      "subtitle": "登录到您的账户",
+      "username": "用户名",
+      "password": "密码",
+      "email": "邮箱",
+      "submit": "登录",
+      "loading": "正在登录...",
+      "success": "登录成功！",
+      "error": "登录失败",
+      "forgotPassword": "忘记密码？",
+      "noAccount": "还没有账户？",
+      "goToRegister": "立即注册",
+      "placeholder": {
+        "username": "请输入用户名",
+        "password": "请输入密码"
+      },
+      "validation": {
+        "usernameRequired": "用户名是必填项",
+        "passwordRequired": "密码是必填项",
+        "usernameMin": "用户名至少需要3个字符",
+        "passwordMin": "密码至少需要6个字符"
+      },
+      "copyDeviceId": "复制设备ID",
+      "copyingDeviceId": "复制中...",
+      "deviceIdCopied": "设备ID已复制到剪贴板",
+      "deviceIdCopyError": "无法复制设备ID"
+    },
+    "register": {
+      "title": "注册",
+      "subtitle": "创建新账户",
+      "name": "姓名",
+      "username": "用户名",
+      "email": "邮箱",
+      "password": "密码",
+      "confirmPassword": "确认密码",
+      "submit": "注册",
+      "loading": "正在注册...",
+      "success": "注册成功！",
+      "error": "注册失败",
+      "hasAccount": "已有账户？",
+      "goToLogin": "立即登录",
+      "placeholder": {
+        "name": "请输入姓名",
+        "username": "请输入用户名",
+        "email": "请输入邮箱地址",
+        "password": "请输入密码",
+        "confirmPassword": "请再次输入密码"
+      },
+      "validation": {
+        "nameRequired": "姓名是必填项",
+        "usernameRequired": "用户名是必填项",
+        "emailRequired": "邮箱是必填项",
+        "passwordRequired": "密码是必填项",
+        "confirmPasswordRequired": "确认密码是必填项",
+        "nameMin": "姓名至少需要2个字符",
+        "usernameMin": "用户名至少需要3个字符",
+        "emailInvalid": "邮箱格式无效",
+        "passwordMin": "密码至少需要6个字符",
+        "passwordMatch": "密码不匹配"
+      }
+    },
+    "logout": {
+      "title": "登出",
+      "confirm": "您确定要登出吗？",
+      "submit": "登出",
+      "cancel": "取消",
+      "loading": "正在登出...",
+      "success": "已成功登出"
+    },
+    "user": {
+      "profile": "个人资料",
+      "welcome": "欢迎，{{name}}！",
+      "loginTime": "登录时间：{{time}}",
+      "lastCheck": "最后检查：{{time}}"
+    },
+    "connection": {
+      "testing": "正在测试连接...",
+      "success": "连接成功",
+      "failed": "连接失败",
+      "retry": "重试",
+      "serverUrl": "服务器地址",
+      "testConnection": "测试连接"
+    },
+    "status": {
+      "authenticated": "已认证",
+      "unauthenticated": "未认证",
+      "checking": "正在检查...",
+      "expired": "会话已过期",
+      "invalid": "会话无效"
+    }
+  },
+  "license": {
+    "title": "许可证",
+    "expiresAt": "到期时间",
+    "lastChecked": "最后检查",
+    "usage": "使用情况",
+    "limits": "限制",
+    "accountsUsed": "已使用账户",
+    "roomsUsed": "已使用房间",
+    "maxAccounts": "最大账户数",
+    "maxRooms": "最大房间数",
+    "validUntil": "有效期至",
+    "daysRemaining": "剩余{{days}}天",
+    "hoursRemaining": "剩余{{hours}}小时",
+    "expired": "已过期",
+    "active": "活跃",
+    "inactive": "非活跃",
+    "trial": "试用",
+    "premium": "高级",
+    "basic": "基础",
+    "unlimited": "无限制",
+    "lastUpdate": "最后更新",
+    "autoRefresh": "自动刷新",
+    "refreshNow": "立即刷新",
+    "refreshing": "正在刷新...",
+    "info": {
+      "title": "许可证信息",
+      "type": "许可证类型",
+      "name": "套餐名称",
+      "status": "状态",
+      "expiresAt": "到期时间",
+      "startDate": "开始日期",
+      "description": "描述",
+      "price": "价格",
+      "duration": "有效期",
+      "daysRemaining": "剩余{{days}}天"
+    },
+    "status": {
+      "active": "活跃",
+      "inactive": "非活跃",
+      "expired": "已过期",
+      "suspended": "已暂停",
+      "trial": "试用"
+    },
+    "messages": {
+      "noLicense": "没有有效许可证",
+      "expired": "许可证已过期",
+      "accountLimitExceeded": "账户数量超出限制",
+      "roomLimitExceeded": "房间数量超出限制",
+      "refreshing": "正在刷新许可证...",
+      "refreshed": "许可证已刷新",
+      "refreshFailed": "许可证刷新失败",
+      "accountLimit": "账户：{{current}}/{{max}}",
+      "roomLimit": "房间：{{current}}/{{max}}",
+      "refreshSuccess": "许可证刷新成功",
+      "refreshError": "许可证刷新错误"
+    },
+    "actions": {
+      "refresh": "刷新",
+      "upgrade": "升级",
+      "renew": "续费",
+      "contact": "联系支持"
+    },
+    "errors": {
+      "cannotImportAccounts": "无法导入账户 - 超出许可证限制",
+      "cannotStartRoom": "无法启动房间 - 超出许可证限制",
+      "licenseRequired": "需要有效许可证才能使用此功能",
+      "expired": "许可证已过期",
+      "invalid": "许可证无效",
+      "limitReached": "已达到许可证限制",
+      "refreshFailed": "刷新许可证失败"
+    },
+    "warnings": {
+      "noValidLicense": "没有有效许可证",
+      "accountFeaturesDisabled": "账户管理功能已被禁用。请检查您的许可证。",
+      "roomFeaturesDisabled": "房间管理功能已被禁用。请检查您的许可证。",
+      "taskFeaturesDisabled": "任务管理功能已被禁用。请检查您的许可证。",
+      "taskManagementUnavailable": "任务管理不可用 - 需要有效许可证"
+    }
+  },
+  "home": {
+    "pageTitle": "首页 - {{appTitle}}",
+    "title": "首页",
+    "welcome": "欢迎使用 {{appTitle}}",
+    "today": "今天",
+    "quickActions": "快捷操作",
+    "stats": {
+      "activeViewers": "活跃观看者",
+      "totalViews": "总观看次数",
+      "watchingRooms": "正在观看的房间"
+    },
+    "actions": {
+      "manageAccounts": "管理账号",
+      "manageAccountsDesc": "添加、删除或编辑 TikTok 账号",
+      "manageProxies": "管理代理",
+      "manageProxiesDesc": "为观看者添加或删除代理",
+      "manageRooms": "管理直播房间",
+      "manageRoomsDesc": "查看和管理正在观看的直播房间"
+    },
+    "activity": {
+      "recentActivity": "最近活动",
+      "addedAccount": "添加了新账号",
+      "startedViewer": "启动了观看器",
+      "importedProxy": "导入了代理",
+      "stoppedViewer": "停止了观看器",
+      "minutesAgo": "分钟前",
+      "roomWatching": "正在观看房间 @{{roomId}}",
+      "roomStopped": "已停止观看房间 @{{roomId}}",
+      "roomCompleted": "已完成观看房间 @{{roomId}}",
+      "roomUpdated": "已更新房间 @{{roomId}}",
+      "noRecentActivity": "没有最近活动"
+    }
+  },
+  "dashboard": {
+    "title": "仪表板",
+    "welcome": "欢迎使用 {{appTitle}}",
+    "today": "今天",
+    "stats": {
+      "totalAccounts": "总账号数",
+      "totalProxies": "总代理数",
+      "activeViewers": "活跃观看者",
+      "totalViews": "总观看次数"
+    },
+    "quickActions": {
+      "title": "快捷操作",
+      "manageAccounts": {
+        "title": "管理账号",
+        "description": "添加、删除或编辑 TikTok 账号"
+      },
+      "manageProxies": {
+        "title": "管理代理",
+        "description": "为观看者添加或删除代理"
+      },
+      "startViewer": {
+        "title": "启动观看器",
+        "description": "使用当前设置启动观看器"
+      }
+    },
+    "recentActivity": {
+      "title": "最近活动",
+      "addedAccount": "添加了新账号",
+      "startedViewer": "启动了观看器",
+      "importedProxies": "导入了代理列表",
+      "stoppedViewer": "停止了观看器",
+      "minutesAgo": "{{count}} 分钟前"
+    },
+    "tips": {
+      "title": "使用提示",
+      "items": [
+        "使用代理避免被封禁",
+        "不要同时运行太多观看器",
+        "定期更新代理列表",
+        "定期检查账号状态"
+      ]
+    },
+    "status": {
+      "success": "成功",
+      "info": "信息",
+      "warning": "警告"
+    }
+  },
+  "settings": {
+    "title": "设置",
+    "description": "自定义 TikTok 直播观看器设置",
+    "resetToDefault": "恢复默认设置",
+    "app": {
+      "title": "应用信息",
+      "titleDescription": "显示应用程序标题。留空则使用基于语言的默认值。",
+      "nameDescription": "应用程序简称。留空则使用基于语言的默认值。",
+      "subtitleDescription": "应用程序简短描述。留空则使用基于语言的默认值。"
+    },
+    "language": {
+      "title": "语言",
+      "description": "选择应用程序的显示语言",
+      "vietnamese": "越南语",
+      "english": "英语",
+      "chinese": "中文",
+      "japanese": "日语",
+      "korean": "韩语",
+      "thai": "泰语",
+      "french": "法语"
+    },
+    "theme": {
+      "title": "主题",
+      "description": "选择亮色或暗色显示模式",
+      "light": "亮色",
+      "dark": "暗色",
+      "system": "跟随系统",
+      "lightMode": "亮色模式",
+      "darkMode": "暗色模式"
+    },
+    "notifications": {
+      "title": "通知",
+      "description": "配置通知和声音设置",
+      "enable": {
+        "title": "启用通知",
+        "description": "显示活动通知"
+      },
+      "sound": {
+        "title": "通知声音",
+        "description": "通知出现时播放声音"
+      },
+      "desktop": "桌面通知",
+      "desktopDescription": "在桌面上显示通知",
+      "soundDescription": "通知出现时播放声音",
+      "test": "测试通知",
+      "testDescription": "发送测试通知以检查功能",
+      "sendTest": "发送测试通知",
+      "testSent": "测试通知已发送",
+      "testFailed": "无法发送测试通知",
+      "roomStopped": "房间停止通知",
+      "roomStoppedDescription": "房间停止直播时显示通知",
+      "newRoom": "新房间通知",
+      "newRoomDescription": "添加新房间时显示通知"
+    },
+    "security": {
+      "title": "安全",
+      "description": "安全和会话设置",
+      "twoFactor": {
+        "title": "双重认证",
+        "description": "使用双重认证增强安全性"
+      },
+      "sessionTimeout": {
+        "title": "会话超时",
+        "description": "不活动时自动登出时间",
+        "minutes": "分钟"
+      }
+    },
+    "system": {
+      "title": "系统",
+      "description": "配置系统和自动更新设置",
+      "autoUpdate": {
+        "title": "自动更新",
+        "description": "当有新版本可用时自动更新"
+      },
+      "maxRoomsPerAccount": {
+        "title": "每个账号的最大房间数",
+        "description": "一个账号可以同时观看的最大直播房间数"
+      },
+      "accountCooldown": {
+        "title": "账号冷却时间",
+        "description": "账号可以再次使用前的最小时间间隔",
+        "disabled": "已禁用",
+        "seconds": "秒",
+        "minute": "分钟",
+        "minutes": "分钟"
+      }
+    },
+    "proxy": {
+      "title": "代理设置",
+      "description": "管理代理设置和每个代理的槽位",
+      "maxAccountsPerProxy": {
+        "title": "每个代理的最大账户数",
+        "description": "限制分配给同一代理的账户数量"
+      }
+    },
+    "about": {
+      "title": "关于",
+      "version": "版本",
+      "license": "许可证",
+      "licenseText": "版权所有 © 2024 TTL TikTok Live Viewer。保留所有权利。",
+      "teamTitle": "开发团队",
+      "team": "团队信息",
+      "teamMembers": "由 TTL Tech 团队开发，专注于高性能网络和应用程序开发解决方案。我们的团队由在信息技术领域拥有超过 5 年经验的专家组成。"
+    }
+  },
+  "accounts": {
+    "title": "账号",
+    "add": "添加账号",
+    "importText": "从文本导入",
+    "importFile": "从文件导入",
+    "manageInFolder": "管理文件夹 {{folder}} 中的 TikTok 账号",
+    "unknownFolder": "未知",
+    "resetConfirm": "确定要重置所有文件夹吗？所有文件夹将被删除，账号将移至默认文件夹。",
+    "resetSuccess": "重置文件夹成功！",
+    "resetError": "重置文件夹时出错",
+    "addSuccess": "添加账号成功！",
+    "addError": "添加账号时出错",
+    "deleteConfirm": "确定要删除此账号吗？",
+    "deleteSuccess": "删除账号成功！",
+    "deleteError": "删除账号时出错",
+    "importSuccess": "成功导入 {{imported}} 个账号！",
+    "importError": "导入账号时出错",
+    "importFileSuccess": "成功从文件导入 {{imported}} 个账号！",
+    "importFileError": "从文件导入时出错",
+    "stats": {
+      "totalAccounts": "总账号数",
+      "activeAccounts": "活跃",
+      "problemAccounts": "问题",
+      "filteredAccounts": "已筛选账号"
+    },
+    "status": {
+      "active": "活跃",
+      "inactive": "非活跃",
+      "suspended": "已暂停",
+      "error": "错误",
+      "connecting": "连接中",
+      "403": "403错误",
+      "403fetch": "403获取错误",
+      "die": "账号死亡",
+      "diecookie": "Cookie死亡",
+      "cookiedie": "Cookie 过期",
+      "unknown": "未知"
+    },
+    "table": {
+      "title": "账号列表",
+      "username": "账号",
+      "status": "状态",
+      "proxy": "代理",
+      "noProxy": "无代理",
+      "proxyId": "代理 ID: {{proxyId}}",
+      "currentRooms": "当前房间",
+      "actions": "操作"
+    },
+    "empty": {
+      "title": "暂无账号",
+      "description": "开始添加您的第一个 TikTok 账号",
+      "addFirst": "添加第一个账号"
+    },
+    "filters": {
+      "searchPlaceholder": "搜索账号...",
+      "advanced": "高级筛选",
+      "reset": "清除筛选",
+      "folder": {
+        "all": "所有文件夹"
+      },
+      "status": {
+        "all": "所有状态",
+        "active": "活跃 - 正常",
+        "inactive": "非活跃 - 不正常",
+        "suspended": "已暂停 - 被封禁",
+        "error": "错误 - 错误状态",
+        "connecting": "连接中 - 连接状态",
+        "403": "403 - 403错误",
+        "403fetch": "403fetch - 403获取错误",
+        "die": "死亡 - 账号死亡",
+        "diecookie": "Cookie死亡 - Cookie死亡",
+        "cookiedie": "Cookie 过期",
+        "enter403": "访问 403 错误",
+        "fetch403": "获取 403 错误"
+      },
+      "sort": {
+        "activeRooms": "活跃房间数",
+        "createdAt": "创建日期",
+        "updatedAt": "更新日期",
+        "lastUsed": "最后使用日期",
+        "username": "账号名称"
+      },
+      "proxy": {
+        "title": "特定代理",
+        "all": "所有代理",
+        "none": "无代理"
+      },
+      "proxyFolder": {
+        "title": "代理文件夹",
+        "all": "所有代理文件夹"
+      },
+      "noProxy": "无代理账号",
+      "activeRooms": {
+        "title": "活跃房间数"
+      },
+      "selectedAccounts": {
+        "title": "按位置选择账号",
+        "placeholder": "例如：1-10, 15, 20-25 或留空选择全部",
+        "description": "输入数字或范围，用逗号分隔。例如：1-5, 10, 15-20"
+      }
+    },
+    "bulkActionsButton": "批量操作 ({{count}})",
+    "bulkActions": {
+      "title": "批量操作",
+      "selectedCount": "已选择 {{count}} 个账号",
+      "setProxy": {
+        "title": "分配代理",
+        "description": "为选中的账号分配代理"
+      },
+      "removeProxy": {
+        "title": "移除代理",
+        "description": "从账号中移除代理"
+      },
+      "setStatus": {
+        "title": "设置状态",
+        "active": "活跃",
+        "inactive": "暂停"
+      },
+      "moveToFolder": {
+        "title": "移动到文件夹",
+        "selectFolder": "选择文件夹..."
+      },
+      "checkActivity": {
+        "title": "检查活动",
+        "description": "更新账号状态"
+      },
+      "delete": {
+        "title": "删除账号",
+        "description": "永久删除选中的账号",
+        "confirm": "确定要删除 {{count}} 个选中的账号吗？"
+      }
+    },
+    "proxy": {
+      "setSuccess": "代理分配成功",
+      "setError": "分配代理时出错",
+      "deleteSuccess": "代理删除成功"
+    },
+    "errors": {
+      "selectAtLeastOne": "请至少选择一个账号",
+      "setProxyGeneral": "分配代理时出错：{{error}}",
+      "resetGeneral": "重置文件夹时出错：{{error}}",
+      "importTextGeneral": "导入账号时出错：{{error}}",
+      "importFileGeneral": "从文件导入时出错：{{error}}"
+    },
+    "modal": {
+      "importFile": {
+        "title": "从文件导入账号",
+        "selectFolder": "选择文件夹",
+        "selectFile": "选择文件",
+        "supportedFormats": "支持 .txt 和 .csv 文件，格式：username:password"
+      },
+      "setProxy": {
+        "title": "为 {{count}} 个账号分配代理",
+        "totalProxies": "总代理数",
+        "availableProxies": "可用",
+        "minProxiesNeeded": "最少需要",
+        "selectedProxies": "已选择",
+        "proxies": "代理",
+        "proxyFolder": "代理文件夹",
+        "accountsPerProxy": "每个代理的账号数（最多 10 个）",
+        "accountsPerProxyNote": "注意：此设置在设置 > 代理设置中配置，适用于所有新的代理分配。",
+        "maxAccountsPerProxy": "每个代理的最大账户数",
+        "configuredInSettings": "在设置中配置",
+        "selectProxies": "选择代理（最少 {{selected}}/{{needed}}）",
+        "noProxiesInFolder": "此文件夹中无代理",
+        "allProxiesFull": "此文件夹中的所有代理已满或离线",
+        "selectOtherFolder": "请选择其他文件夹或添加新代理",
+        "availableSlots": "{{slots}} 个位置可用",
+        "cancel": "取消",
+        "applying": "正在分配代理...",
+        "apply": "分配代理",
+        "validation": {
+          "noAvailableProxies": "此文件夹中无可用代理",
+          "selectAtLeastOne": "请至少选择 1 个代理",
+          "needMoreProxies": "需要 {{count}} 个更多代理",
+          "notEnoughSlots": "位置不足！需要 {{needed}} 个位置但只有 {{available}} 个可用",
+          "enoughProxies": "已选择足够的代理！共有 {{slots}} 个位置可用于 {{accounts}} 个账号"
+        }
+      },
+      "addAccount": {
+        "title": "添加新账号",
+        "username": "用户名",
+        "usernamePlaceholder": "输入用户名",
+        "password": "密码",
+        "passwordPlaceholder": "输入密码",
+        "folder": "文件夹",
+        "cancel": "取消",
+        "adding": "正在添加...",
+        "add": "添加账号"
+      },
+      "addFolder": {
+        "title": "创建新文件夹",
+        "name": "文件夹名称",
+        "namePlaceholder": "输入文件夹名称",
+        "description": "描述（可选）",
+        "descriptionPlaceholder": "输入文件夹描述",
+        "color": "颜色",
+        "cancel": "取消",
+        "adding": "正在创建...",
+        "add": "创建文件夹"
+      },
+      "importText": {
+        "title": "从文本导入账号",
+        "folder": "选择文件夹",
+        "text": "账号数据",
+        "textPlaceholder": "username1|password1|email1|emailpass1|cookie1\nusername2|password2|email2|emailpass2|cookie2\n...",
+        "formatDescription": "格式：username|password|email|emailpass|cookie（每行一个账号）",
+        "cancel": "取消",
+        "importing": "正在导入...",
+        "import": "导入账号",
+        "validation": {
+          "emptyData": "请输入账号数据"
+        },
+        "note1": "用户名和密码为必填项",
+        "note2": "邮箱、邮箱密码和 cookie 为可选项",
+        "note3": "使用 | 分隔字段",
+        "note4": "每个账号占一行"
+      },
+      "folders": {
+        "title": "文件夹",
+        "resetToDefault": "重置为默认文件夹",
+        "accountCount": "个账号",
+        "addNew": "添加新文件夹"
+      }
+    },
+    "folders": {
+      "title": "文件夹",
+      "resetToDefault": "重置为默认文件夹",
+      "accountCount": "个账号",
+      "addNew": "添加新文件夹"
+    }
+  },
+  "proxies": {
+    "title": "代理",
+    "description": "管理您的代理服务器",
+    "defaultFolder": "默认",
+    "folders": "文件夹",
+    "resetFolders": "重置文件夹",
+    "resetConfirm": "确定要重置文件夹数据吗？这将重新创建 3 个默认代理文件夹。",
+    "resetSuccess": "重置文件夹数据成功！",
+    "resetError": "重置时出错",
+    "filter": "筛选",
+    "bulkActions": "操作 ({{count}})",
+    "export": "导出",
+    "import": "导入",
+    "add": "添加代理",
+    "advancedFilter": "高级筛选",
+    "loading": "正在加载代理列表...",
+    "filters": {
+      "folder": "文件夹",
+      "allFolders": "所有文件夹",
+      "status": "活动状态",
+      "allStatuses": "所有状态",
+      "active": "活跃代理",
+      "inactive": "非活跃代理",
+      "suspended": "已暂停代理",
+      "enter403": "访问 403 错误",
+      "fetch403": "获取 403 错误",
+      "minAccounts": "已分配账号 ≥",
+      "maxAccounts": "已分配账号 ≤",
+      "searchTerm": "搜索代理",
+      "searchTermPlaceholder": "输入 IP、端口或用户名...",
+      "sortBy": "排序方式",
+      "assignedAccountsCount": "按已分配账号数",
+      "createdAt": "按创建日期",
+      "updatedAt": "按更新日期",
+      "lastUsed": "按最后使用日期",
+      "sortAsc": "升序",
+      "sortDesc": "降序",
+      "found": "找到 {{count}} 个匹配的代理",
+      "clearFilter": "清除筛选",
+      "apply": "应用"
+    },
+    "table": {
+      "title": "代理列表",
+      "selectAll": "全选",
+      "proxy": "代理",
+      "status": "状态",
+      "assignedAccounts": "已分配账号",
+      "createdAt": "创建时间",
+      "actions": "操作"
+    },
+    "empty": {
+      "title": "暂无代理",
+      "description": "开始添加您的第一个代理",
+      "addFirst": "添加第一个代理"
+    },
+    "pagination": "第 {{page}} 页，共 {{totalPages}} 页（{{totalCount}} 个代理）",
+    "addModal": {
+      "title": "添加新代理",
+      "ip": "IP",
+      "ipPlaceholder": "输入 IP 地址",
+      "port": "端口",
+      "portPlaceholder": "输入端口",
+      "username": "用户名",
+      "usernamePlaceholder": "输入用户名（可选）",
+      "password": "密码",
+      "passwordPlaceholder": "输入密码（可选）",
+      "type": "代理类型",
+      "http": "HTTP",
+      "socks5": "SOCKS5",
+      "folder": "文件夹",
+      "noFolder": "无",
+      "cancel": "取消",
+      "adding": "正在添加...",
+      "add": "添加代理",
+      "validation": {
+        "required": "请输入完整的代理信息"
+      },
+      "error": "添加代理时出错",
+      "generalError": "添加代理时发生错误"
+    },
+    "addFolderModal": {
+      "title": "添加新文件夹",
+      "name": "文件夹名称",
+      "namePlaceholder": "输入文件夹名称",
+      "description": "描述",
+      "descriptionPlaceholder": "输入描述（可选）",
+      "color": "颜色",
+      "cancel": "取消",
+      "adding": "正在添加...",
+      "add": "添加文件夹"
+    },
+    "importModal": {
+      "title": "从文件或文本导入代理",
+      "fromFile": "从文件导入",
+      "chooseFile": "选择文件",
+      "orText": "或输入文本",
+      "textPlaceholder": "每行输入一个代理",
+      "folder": "代理文件夹",
+      "defaultFolder": "默认文件夹",
+      "success": "导入成功！",
+      "error": "导入时出错",
+      "imported": "已导入 {{count}} 个代理。",
+      "cancel": "关闭",
+      "importing": "正在导入...",
+      "import": "导入代理",
+      "fileLoaded": "文件 \"{{fileName}}\" 加载成功。点击\"导入代理\"继续。",
+      "fileReadError": "无法读取文件。请检查后重试。"
+    },
+    "exportModal": {
+      "title": "导出代理列表",
+      "format": "导出格式",
+      "defaultFormat": "ip:port:username:password（默认）",
+      "ipPort": "ip:port",
+      "ipPortUsername": "ip:port:username",
+      "usernamePasswordIpPort": "username:password@ip:port",
+      "exportSelected": "将导出 {{count}} 个选中的代理",
+      "exportAll": "将导出所有 {{count}} 个当前代理",
+      "cancel": "取消",
+      "export": "导出代理"
+    },
+    "bulkActionsModal": {
+      "title": "批量操作 ({{count}} 个代理)",
+      "testProxies": "测试活动",
+      "testTimeout": "测试超时",
+      "defaultTimeout": "5 秒（默认）",
+      "tenSeconds": "10 秒",
+      "fifteenSeconds": "15 秒",
+      "thirtySeconds": "30 秒",
+      "testSelected": "测试选中的代理",
+      "moveToFolder": "移动到文件夹",
+      "chooseFolder": "选择目标文件夹",
+      "moveSelected": "移动代理",
+      "exportSelected": "导出代理",
+      "defaultFormat": "ip:port:username:password",
+      "ipPort": "ip:port",
+      "ipPortUsername": "ip:port:username",
+      "usernamePasswordIpPort": "username:password@ip:port",
+      "deleteSelected": "删除代理",
+      "deleteWarning": "此操作无法撤销！",
+      "confirmDelete": "确定要删除 {{count}} 个选中的代理吗？",
+      "delete": "删除代理",
+      "cancel": "关闭"
+    },
+    "errors": {
+      "resetGeneral": "重置文件夹数据时出错"
+    },
+    "testing": "测试中",
+    "notTested": "未测试",
+    "deleteConfirm": "确定要删除此代理吗？",
+    "deleteError": "删除代理时出错",
+    "deleteGeneralError": "删除代理时发生错误"
+  },
+  "rooms": {
+    "title": "直播房间管理",
+    "description": "添加、停止和管理 TikTok 直播房间",
+    "add": "添加直播房间",
+    "quickManagement": "快速房间管理",
+    "pagination": {
+      "showing": "显示",
+      "of": "共",
+      "items": "项",
+      "itemsPerPage": "每页项数",
+      "previous": "上一页",
+      "next": "下一页",
+      "page": "页",
+      "goToPage": "跳转到页",
+      "firstPage": "首页",
+      "lastPage": "末页"
+    },
+    "stats": {
+      "totalRooms": "总直播房间数",
+      "total": "总房间数",
+      "watching": "观看中",
+      "stopped": "已停止",
+      "completed": "已完成",
+      "totalViewers": "总观看人数",
+      "avgViewers": "平均观看人数"
+    },
+    "filters": {
+      "title": "筛选器",
+      "status": "状态",
+      "all": "全部",
+      "watching": "观看中",
+      "stopped": "已停止",
+      "completed": "已完成",
+      "minViewers": "最少观看人数",
+      "maxViewers": "最多观看人数",
+      "minDuration": "最短时长",
+      "maxDuration": "最长时长",
+      "search": "搜索",
+      "searchPlaceholder": "搜索房间URL...",
+      "dateFrom": "开始日期",
+      "dateTo": "结束日期"
+    },
+    "table": {
+      "title": "直播房间列表 ({{count}})",
+      "roomUrl": "直播间",
+      "status": "状态",
+      "viewers": "观看人数",
+      "toolViewers": "工具观众",
+      "realViewers": "TikTok观众",
+      "duration": "时长",
+      "notes": "备注",
+      "actions": "操作",
+      "startedAt": "开始时间:",
+      "notStarted": "未开始",
+      "minutes": "分钟",
+      "uid": "UID：",
+      "lastCheck": "最后检查"
+    },
+    "status": {
+      "watching": "观看中",
+      "stopped": "已停止",
+      "completed": "已完成",
+      "unknown": "未知",
+      "notChecked": "未检查",
+      "justNow": "刚才",
+      "minutesAgo": "分钟前",
+      "hoursAgo": "小时前",
+      "daysAgo": "天前"
+    },
+    "actions": {
+      "stop": "停止直播房间",
+      "duplicate": "复制",
+      "delete": "删除",
+      "start": "开始",
+      "clearAll": "清除所有房间",
+      "addNew": "添加新房间",
+      "filter": "筛选",
+      "bulkActions": "批量操作",
+      "export": "导出",
+      "viewChart": "查看图表"
+    },
+    "empty": {
+      "title": "暂无直播房间",
+      "description": "开始添加您的第一个直播房间。"
+    },
+    "debug": {
+      "totalAccounts": "总账号数",
+      "folders": "文件夹",
+      "filteredAccounts": "已筛选账号",
+      "roomUrl": "房间 URL",
+      "extractedRoomId": "提取的 room_id",
+      "accountsWithActiveRooms": "有活跃房间的账号",
+      "accountCooldown": "账户冷却时间",
+      "accountsInCooldown": "冷却中的账户",
+      "remainingTime": "剩余时间"
+    },
+    "modal": {
+      "addRoom": {
+        "title": "添加新直播房间",
+        "roomUrl": "房间 ID / URL",
+        "roomUrlPlaceholder": "例如：7508300389638194696 或 https://www.tiktok.com/@username/live",
+        "roomUrlDescription": "输入 TikTok 直播房间的 ID 或完整 URL",
+        "targetViewers": "账号数量",
+        "availableAccounts": "可用：{{count}} 个账号",
+        "duration": "观看时长（分钟）",
+        "notes": "备注（可选）",
+        "notesPlaceholder": "关于此直播房间的备注...",
+        "selectAccounts": "选择账号",
+        "accountFilters": "筛选账号",
+        "folder": "文件夹",
+        "allFolders": "所有文件夹",
+        "accountStatus": "状态",
+        "allStatuses": "所有状态",
+        "proxy": "代理",
+        "allProxies": "全部",
+        "withProxy": "有代理",
+        "withoutProxy": "无代理",
+        "maxCurrentRooms": "最大当前房间数",
+        "quickSelection": "快速选择",
+        "quickSelectionDescription": "自动选择 {{count}} 个合适的账号",
+        "canSelectMore": "可以选择 {{count}} 个更多账号",
+        "accountsTable": {
+          "selectAll": "全选",
+          "username": "账号",
+          "status": "状态",
+          "proxy": "代理",
+          "currentRooms": "当前房间",
+          "noProxy": "无代理"
+        },
+        "cancel": "取消",
+        "adding": "正在添加...",
+        "add": "添加直播房间",
+        "addWithCount": "添加直播房间（{{count}} 个账号）",
+        "selectSpecificAccounts": "选择特定账号",
+        "quickSelectionByPosition": "按位置快速选择",
+        "filteredAccounts": "{{count}} 个匹配的账号",
+        "selectedAccounts": "{{count}} 个账号"
+      }
+    },
+    "messages": {
+      "enterRoomUrl": "请输入直播房间 URL",
+      "selectAtLeastOne": "请至少选择一个账号",
+      "roomAdded": "直播房间添加成功",
+      "roomDeleted": "直播房间已删除",
+      "roomStopped": "直播房间已停止",
+      "confirmDelete": "确定要删除此直播房间吗？",
+      "confirmStop": "确定要停止此直播房间吗？",
+      "confirmClearAll": "确定要清除所有账号的所有活跃房间吗？此操作无法撤销！",
+      "clearAllSuccess": "✅ 已清除 {{count}} 个账号的活跃房间",
+      "clearAllError": "❌ 错误",
+      "clearAllGeneralError": "❌ 清除房间时发生错误",
+      "addRoomError": "添加直播房间时出错",
+      "addRoomGeneralError": "添加直播房间时发生错误",
+      "stopRoomError": "停止直播房间时出错",
+      "stopRoomGeneralError": "停止直播房间时发生错误",
+      "deleteRoomError": "删除直播房间时出错",
+      "deleteRoomGeneralError": "删除直播房间时发生错误",
+      "alreadySelectedEnough": "您已经选择了 {{count}} 个账号！",
+      "cannotSelectMore": "无法选择更多账户",
+      "noRooms": "暂无房间",
+      "loadingRooms": "正在加载房间...",
+      "addSuccess": "房间添加成功！",
+      "addError": "添加房间时出错",
+      "deleteConfirm": "确定要删除这个房间吗？",
+      "deleteSuccess": "房间删除成功！",
+      "deleteError": "删除房间时出错",
+      "stopConfirm": "确定要停止这个房间吗？",
+      "stopSuccess": "房间停止成功！",
+      "stopError": "停止房间时出错"
+    },
+    "errors": {
+      "roomNotFound": "未找到房间",
+      "writeFailed": "写入失败",
+      "unknownError": "未知错误"
+    },
+    "viewerStats": {
+      "title": "观众统计",
+      "currentCount": "当前: {{count}}",
+      "lastChecked": "最后检查: {{time}}",
+      "history": "观众历史",
+      "noData": "暂无数据",
+      "totalViews": "总观看量",
+      "peakViewers": "峰值: {{count}}",
+      "averageViewers": "平均: {{count}}"
+    },
+    "autoRefresh": {
+      "label": "自动刷新",
+      "interval": "间隔时间",
+      "next": "下次: {{countdown}}s",
+      "refresh": "刷新"
+    },
+    "sort": {
+      "createdAt": "创建时间",
+      "currentViewers": "当前观看人数",
+      "status": "状态",
+      "asc": "升序",
+      "desc": "降序"
+    },
+    "chart": {
+      "title": "观看者历史图表",
+      "loading": "正在加载数据...",
+      "loadError": "加载图表数据错误",
+      "noData": "无数据显示",
+      "viewersAxis": "观看者数量",
+      "timeAxis": "时间",
+      "viewers": "观看者",
+      "offline": "离线",
+      "days": {
+        "1": "1天",
+        "3": "3天",
+        "7": "7天",
+        "30": "30天"
+      },
+      "stats": {
+        "totalPoints": "总数据点",
+        "maxViewers": "最大观看者",
+        "avgViewers": "平均值",
+        "offlinePoints": "离线点"
+      }
+    }
+  },
+  "chart": {
+    "title": "观看者历史图表",
+    "loading": "正在加载数据...",
+    "loadError": "加载图表数据错误",
+    "noData": "无数据显示",
+    "viewersAxis": "观看者数量",
+    "timeAxis": "时间",
+    "viewers": "观看者",
+    "offline": "离线",
+    "days": {
+      "1": "1天",
+      "3": "3天",
+      "7": "7天",
+      "30": "30天"
+    },
+    "stats": {
+      "totalPoints": "总数据点",
+      "maxViewers": "最大观看者",
+      "avgViewers": "平均值",
+      "offlinePoints": "离线点"
+    }
+  },
+  "common": {
+    "cancel": "取消",
+    "save": "保存",
+    "delete": "删除",
+    "edit": "编辑",
+    "add": "添加",
+    "close": "关闭",
+    "confirm": "确认",
+    "loading": "加载中...",
+    "success": "成功",
+    "error": "错误",
+    "warning": "警告",
+    "info": "信息",
+    "reload": "重新加载",
+    "result": "结果",
+    "selected": "已选择",
+    "selectStatus": "选择状态",
+    "deselect": "取消选择",
+    "from": "从",
+    "to": "到",
+    "selectRange": "选择范围",
+    "note": "备注",
+    "unknown": "未知",
+    "hiddenEmail": "隐藏邮箱",
+    "default": "默认",
+    "defaultDescription": "默认文件夹",
+    "defaultAccountFolder": "账号默认文件夹",
+    "defaultProxyFolder": "代理默认文件夹",
+    "ok": "确定",
+    "selectOption": "选择一个选项...",
+    "pagination": {
+      "showing": "显示",
+      "of": "共",
+      "items": "项",
+      "itemsPerPage": "每页显示项目数",
+      "previous": "上一页",
+      "next": "下一页",
+      "page": "页",
+      "goToPage": "跳转到页",
+      "firstPage": "首页",
+      "lastPage": "尾页"
+    }
+  },
+  "analytics": {
+    "title": "分析",
+    "description": "TikTok 直播观看器的性能统计和活动",
+    "refresh": "刷新",
+    "loading": "正在加载数据...",
+    "views": "次观看",
+    "likes": "次点赞",
+    "current": "当前",
+    "used": "已使用",
+    "noData": "暂无数据",
+    "noAccountData": "暂无账号数据",
+    "noActivity": "暂无最近活动",
+    "totalViews": "总观看次数",
+    "totalLikes": "总点赞次数",
+    "totalComments": "总评论次数",
+    "activeViewers": "活跃观看者",
+    "totalRuntime": "总运行时间",
+    "totalAccounts": "总账号数",
+    "averagePerformance": "平均性能",
+    "viewsPerAccount": "每个账号的观看次数",
+    "dailyStats": "每日统计",
+    "topAccounts": "表现最佳的账号",
+    "recentActivities": "最近活动",
+    "timeRange": {
+      "24h": "最近 24 小时",
+      "7days": "最近 7 天",
+      "30days": "最近 30 天",
+      "90days": "最近 90 天"
+    }
+  },
+  "landing": {
+    "title": "TTL TikTok 直播观看器 - 提升 TikTok 直播观看次数",
+    "appName": "TTL",
+    "subtitle": "TikTok 直播观看器",
+    "hero": {
+      "headline": "提升直播观看次数",
+      "subHeadline": "专业的 TikTok",
+      "description": "强大的应用程序，可自动安全地增加您的 TikTok 直播观看次数"
+    },
+    "features": {
+      "autoViews": {
+        "title": "自动观看提升",
+        "description": "使用多个账号同时自动增加直播观看次数"
+      },
+      "accountManagement": {
+        "title": "账号管理",
+        "description": "轻松管理多个 TikTok 账号和代理"
+      },
+      "security": {
+        "title": "安全可靠",
+        "description": "使用代理和匿名技术保护您的账号"
+      }
+    },
+    "cta": {
+      "start": "开始使用",
+      "manageAccounts": "管理账号"
+    },
+    "stats": {
+      "accounts": "支持的账号",
+      "uptime": "24/7 运行",
+      "safety": "安全",
+      "unlimited": "无限制"
+    },
+    "footer": "© 2025 TTL 工具。采用先进技术开发。"
+  },
+  "navigation": {
+    "home": "首页",
+    "accounts": "账号",
+    "rooms": "直播房间",
+    "analytics": "分析",
+    "pricing": "服务套餐",
+    "proxies": "代理",
+    "settings": "设置",
+    "tasks": "任务调度器"
+  },
+  "addRoom": "添加直播房间",
+  "quickManage": "快速房间管理",
+  "lightMode": "亮色模式",
+  "darkMode": "暗色模式",
+  "language": "语言",
+  "tasks": {
+    "title": "任务调度器",
+    "description": "管理自动化任务",
+    "add": "添加任务",
+    "edit": "编辑任务",
+    "delete": "删除任务",
+    "name": "任务名称",
+    "handler": "处理函数",
+    "interval": "重复间隔",
+    "status": "状态",
+    "lastRun": "上次运行",
+    "nextRun": "下次运行",
+    "runCount": "运行次数",
+    "errorCount": "错误次数",
+    "enabled": "已启用",
+    "runNow": "立即运行",
+    "minutes": "分钟",
+    "hours": "小时",
+    "days": "天",
+    "seconds": "秒",
+    "statusValues": {
+      "idle": "空闲",
+      "running": "运行中",
+      "completed": "已完成",
+      "error": "错误"
+    },
+    "handlers": {
+      "checkAccountHealth": "检查账户健康",
+      "updateProxyStatus": "更新代理状态",
+      "cleanupOldData": "清理旧数据",
+      "backupData": "备份数据",
+      "backupDataWithoutHistory": "备份数据（不含历史）",
+      "monitorRooms": "监控直播间",
+      "updateAccountsInfo": "更新账户信息",
+      "refreshLicense": "刷新许可证信息",
+      "autoStopExpiredRooms": "自动停止过期房间"
+    },
+    "messages": {
+      "addSuccess": "任务添加成功",
+      "updateSuccess": "任务更新成功",
+      "deleteSuccess": "任务删除成功",
+      "runSuccess": "任务执行成功",
+      "enableSuccess": "任务启用成功",
+      "disableSuccess": "任务禁用成功",
+      "deleteConfirm": "确定要删除此任务吗？",
+      "noTasks": "暂无任务",
+      "noTasksDescription": "开始创建您的第一个自动任务",
+      "addFirstTask": "添加第一个任务"
+    }
+  },
+  "notifications": {
+    "newRoom": {
+      "title": "发现新直播间",
+      "body": "直播间 \"{roomIdentifier}\" 刚刚开始直播。"
+    },
+    "roomStopped": {
+      "title": "直播间已停止",
+      "body": "直播间 \"{roomIdentifier}\" 已停止直播。"
+    },
+    "error": {
+      "title": "发生错误",
+      "defaultMessage": "应用程序中发生错误。"
+    }
+  },
+  "pricing": {
+    "title": "服务套餐",
+    "pageTitle": "服务套餐 - {{appTitle}}",
+    "subtitle": "TikTok直播服务套餐成本和利润分析",
+    "basicCosts": {
+      "title": "基本成本",
+      "accountCost": "账户成本",
+              "accountCostUnit": "账户",
+      "proxyCost": "代理成本",
+              "proxyCostUnit": "月 (5账户/代理)",
+      "revenue": "收入",
+              "revenueUnit": "账户/分钟",
+      "dailyMinutes": "每账户每天分钟数",
+      "dailyMinutesUnit": "分钟",
+      "calculate": "计算",
+      "reset": "重置为默认"
+    },
+    "packageTable": {
+      "title": "服务套餐列表",
+      "package": "套餐",
+      "accounts": "账户数",
+      "rooms": "房间数",
+      "duration": "有效期",
+      "durationDays": "{{days}} 天",
+      "licenseCost": "许可费用",
+      "loading": "正在加载数据...",
+      "error": "加载服务套餐数据错误",
+      "retry": "重试"
+    },
+    "revenueAnalysis": {
+      "title": "收入分析",
+      "package": "套餐",
+      "dailyRevenue": "日收入",
+      "monthlyRevenue": "月收入",
+      "firstMonthCost": "第一个月成本",
+      "proxyMonthlyCost": "代理成本/月",
+      "licenseMonthlyCost": "许可证成本/月",
+      "monthlyCost": "总月度成本",
+      "monthlyProfit": "月利润",
+      "roi": "投资回报率 %",
+      "positive": "盈利",
+      "negative": "亏损"
+    },
+    "breakEven": {
+      "title": "盈亏平衡分析",
+      "package": "套餐",
+      "minutesPerDay": "每天所需分钟数",
+      "hoursPerDay": "小时/天",
+      "feasibility": "可行性",
+      "veryFeasible": "非常可行",
+      "feasible": "可行",
+      "challenging": "有挑战性",
+      "unfeasible": "不可行",
+      "hoursUnit": "小时"
+    },
+    "currency": "越南盾",
+    "calculations": {
+      "dailyRevenueFormula": "= {{accounts}} 账户 × {{minutes}} 分钟 × {{rate}} 越南盾/分钟",
+      "monthlyRevenueFormula": "= 日收入 × 30 天",
+      "firstMonthCostFormula": "= ({{accounts}} × {{accountCost}}) + ({{proxies}} × {{proxyCost}}) + {{licenseCost}}",
+      "monthlyCostFormula": "= {{proxies}} 代理 × {{proxyCost}} 越南盾",
+      "monthlyProfitFormula": "= 月收入 - 月成本"
+    }
+  },
+  "menu": {
+    "app": {
+      "about": "关于 {appName}",
+      "hide": "隐藏 {appName}",
+      "hideOthers": "隐藏其他",
+      "showAll": "显示全部",
+      "quit": "退出 {appName}"
+    },
+    "file": {
+      "title": "文件",
+      "newRoom": "新建直播间...",
+      "newAccount": "新建账号...",
+      "newProxy": "新建代理...",
+      "importAccountsText": "从文本导入账号...",
+      "importProxiesText": "从文本导入代理...",
+      "close": "关闭窗口"
+    },
+    "edit": {
+      "title": "编辑",
+      "undo": "撤销",
+      "redo": "重做",
+      "cut": "剪切",
+      "copy": "复制",
+      "paste": "粘贴",
+      "selectAll": "全选"
+    },
+    "view": {
+      "title": "视图",
+      "reload": "重新加载",
+      "toggleDevTools": "开发者工具",
+      "resetZoom": "重置缩放",
+      "zoomIn": "放大",
+      "zoomOut": "缩小",
+      "toggleFullscreen": "全屏"
+    },
+    "tools": {
+      "title": "工具",
+      "checkAllAccounts": "检查所有账户",
+      "checkAllProxies": "检查所有代理",
+      "clearCache": "清除缓存",
+      "exportData": "导出数据",
+      "importData": "导入数据",
+      "backupData": "备份数据",
+      "backupDataFull": "完整备份",
+      "backupDataCompact": "压缩备份（不含历史）"
+    },
+    "window": {
+      "title": "窗口",
+      "minimize": "最小化",
+      "zoom": "缩放",
+      "front": "前置所有窗口"
+    },
+    "help": {
+      "title": "帮助",
+      "documentation": "文档",
+      "reportIssue": "报告问题",
+      "checkForUpdates": "检查更新",
+      "about": "关于"
+    }
+  },
+  "update": {
+    "title": "应用更新",
+    "description": "管理自动更新和检查新版本",
+    "currentVersion": "当前版本",
+    "lastChecked": "上次检查",
+    "neverChecked": "从未检查",
+    "justNow": "刚刚",
+    "minutesAgo": "{{minutes}} 分钟前",
+    "hoursAgo": "{{hours}} 小时前",
+    "daysAgo": "{{days}} 天前",
+    "checking": "检查中...",
+    "checkNow": "立即检查",
+    "upToDate": "已是最新",
+    "upToDateDescription": "您正在使用最新版本",
+    "updateAvailable": "有可用更新",
+    "newVersionAvailable": "版本 {{latest}} 可用（当前：{{current}}）",
+    "releaseNotes": "更新说明",
+    "available": {
+      "title": "有可用更新",
+      "message": "版本 {{latestVersion}} 可用（当前：{{currentVersion}}）"
+    },
+    "fileSize": "文件大小",
+    "publishedAt": "发布时间",
+    "showReleaseNotes": "显示更新说明",
+    "hideReleaseNotes": "隐藏更新说明",
+    "downloading": "下载中...",
+    "download": "下载",
+    "dismiss": "忽略",
+    "downloadInstall": "下载并安装",
+    "skip": "跳过",
+    "autoUpdateWarning": "自动检测到更新。建议立即下载。",
+    "settings": {
+      "title": "更新设置",
+      "autoCheck": "自动检查更新",
+      "autoCheckDescription": "在后台自动检查新版本",
+      "checkInterval": "检查频率",
+      "intervalDescription": "更新检查之间的时间间隔"
+    },
+    "interval": {
+      "30minutes": "30 分钟",
+      "1hour": "1 小时",
+      "4hours": "4 小时",
+      "daily": "每天"
+    },
+    "info": {
+      "title": "更新信息",
+      "updateSource": "更新源",
+      "updateType": "更新类型",
+      "fullUpdate": "完整更新",
+      "downloadLocation": "下载位置",
+      "tempDirectory": "临时目录",
+      "backupCreated": "已创建备份",
+      "yes": "是",
+      "githubReleases": "GitHub Releases"
+    },
+    "advanced": {
+      "title": "高级选项",
+      "channel": "更新频道",
+      "platform": "平台",
+      "repository": "代码库",
+      "stable": "稳定版"
+    },
+    "updateNow": "立即更新",
+    "clickToUpdateNow": "点击立即更新"
+  },
+  "debug": {
+    "mode": "调试",
+    "info": "调试信息"
+  },
+  "retry": "重试"
+}

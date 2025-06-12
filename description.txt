@@ -1,0 +1,150 @@
+Cấu hình:
+    - Số account tối đa cho 1 proxy: 10
+    - Số room tối đa cho 1 account: 10
+Tác vụ Accounts:
+    - Filter: 
+        + Toàn bộ
+        + Chọn thư mục
+        + Account chưa có proxy
+        + Theo Proxy nhập vào
+        + Theo Status account
+            + Active: Account đang hoạt động
+            + Inactive: Account không hoạt động
+            + Suspended: Account bị treo
+            + Cookiedie: Account cookie đã chết
+            + Enter403: Account bị lỗi 403 khi truy cập
+            + Fetch403: Account bị lỗi 403 khi lấy dữ liệu
+        + Chọn 1 danh sách account
+            + Mặc định từ 1->tổng số account
+            + Có thể chọn nhiều account không theo thứ tự bằng cách tick vào ô account
+        + Số room đang xem nhỏ hơn hoặc bằng:
+            + Mặc định là 10
+            + Có thể chọn từ 0 đến 10
+    - Sort:
+        + Theo số lượng room đang xem
+        + Theo ngày tạo
+        + Theo ngày cập nhật
+        + Theo ngày xem gần nhất
+    - Set proxy vào account:
+        + Filter như trên
+        + Chọn Thư mục Proxy
+        + Chọn Proxy cần set vào account: loại bỏ proxy đã set vào account quá so với Cấu hình "Số account tối đa cho 1 proxy"
+        + Chọn số lượng account gán cho 1 proxy
+        + Không được chọn proxy đã có account gán quá số lượng tối đa, ví dụ:
+            - Nếu cấu hình "Số account tối đa cho 1 proxy" là 10, và có 2 proxy đã có 9 account gán, thì chỉ có thể chọn 1 account cho mỗi proxy đó.
+    - Set cookie vào account:
+        + Lúc import account vào tool nếu username đã tồn tại thì sẽ tự động set cookie vào account đó.
+    - Set status cho account:
+        + Filter như trên
+        + Chọn status cần set:
+            + Active: Đặt trạng thái hoạt động
+            + Inactive: Đặt trạng thái không hoạt động
+            + Suspended: Đặt trạng thái bị treo
+            + Cookiedie: Đặt trạng thái cookie đã chết
+            + Enter403: Đặt trạng thái bị lỗi 403 khi truy cập
+            + Fetch403: Đặt trạng thái bị lỗi 403 khi lấy dữ liệu
+    - Xoá proxy khỏi account:
+         + Filter như trên
+    - Xoá account:
+        + Filter như trên
+
+    - Chuyển account sang thư mục khác:
+        + Filter như trên
+        + Chọn thư mục đích
+    
+    - Kiểm tra hoạt động của account:
+        + Filter như trên nhưng bắt buộc phải có proxy
+Proxy:
+    - Lọc proxy:
+        + Theo thư mục
+        + Theo trạng thái hoạt động
+            + Active: Proxy đang hoạt động
+            + Inactive: Proxy không hoạt động
+            + Suspended: Proxy bị treo
+            + Enter403: Proxy bị lỗi 403 khi truy cập
+            + Fetch403: Proxy bị lỗi 403 khi lấy dữ liệu
+        + Theo số lượng account đã gán lớn hơn hoặc bằng:
+            + Mặc định là 0, có thể chọn từ 0 đến 10
+        + Theo số lượng account đã gán nhỏ hơn hoặc bằng:
+            + Mặc định là 10, có thể chọn từ 0 đến 10
+    - Thêm proxy:
+        + Nhập vào danh sách proxy theo định dạng: ip:port:username:password, ip:port, username:password@ip:port
+        + Hoặc tải lên file txt chứa danh sách proxy
+        + Chọn thư mục lưu trữ proxy
+    - Xoá proxy:
+        + Lọc như trên
+        + Chọn proxy cần xoá
+    - Sửa proxy:
+        + Chọn proxy cần sửa
+        + Nhập lại thông tin proxy
+    - Kiểm tra hoạt động của proxy:
+        + Chọn proxy cần kiểm tra
+        + Chọn thư mục chứa proxy
+        + Chọn số lượng proxy cần kiểm tra
+        + Chọn thời gian kiểm tra (mặc định là 5 giây)
+    - Xuất proxy:
+        + Xuất danh sách proxy theo định dạng: ip:port:username:password
+        + Xuất danh sách proxy theo định dạng: ip:port
+        + Xuất danh sách proxy theo định dạng: ip:port:username
+        + Xuất danh sách proxy theo định dạng: ip:port:username:password (mặc định)
+    - Sắp xếp proxy:
+        + Theo số lượng account đã gán
+        + Theo ngày tạo
+        + Theo ngày cập nhật
+        + Theo ngày sử dụng gần nhất
+    - Chuyển proxy sang thư mục khác:
+        + Chọn proxy cần chuyển
+        + Chọn thư mục đích
+Phòng live:(status gồm có: Đang xem, Đang dừng, Hoàn thành)
+    - Lọc phòng live:
+        + Theo trạng thái hoạt động
+            + Đang xem: Phòng live đang được xem
+            + Đang dừng: Phòng live đã dừng
+            + Hoàn thành: Phòng live đã hoàn thành
+        + Theo số lượng account đang xem lớn hơn hoặc bằng:
+            + Mặc định là 0
+        + Theo số lượng account đang xem nhỏ hơn hoặc bằng:
+            + Mặc định là 100000, có thể chọn từ 0 đến 100.000
+        + Số người xem thực tế bị thiếu hoặc dư
+    - Thêm phòng live:
+        + Nhập vào room_id hoặc room_url theo định dạng: 7508300389638194696 hoặc https://www.tiktok.com/@username/ hoặc https://www.tiktok.com/@username/live
+        + Nhập số lượng account cần xem phòng live: ví dụ là X
+        + Nhập thời gian xem phòng live (mặc định là 5 phút)
+        + Chọn danh sách account cần xem phòng live:
+            - Filter như Tác vụ Accounts: 
+                + Toàn bộ
+                + Chọn thư mục
+                + Account chưa có proxy
+                + Theo Proxy nhập vào
+                + Theo Status account
+                    + Active: Account đang hoạt động
+                    + Inactive: Account không hoạt động
+                    + Suspended: Account bị treo
+                    + Cookiedie: Account cookie đã chết
+                    + Enter403: Account bị lỗi 403 khi truy cập
+                    + Fetch403: Account bị lỗi 403 khi lấy dữ liệu
+                + Chọn 1 danh sách account
+                    + Mặc định từ 1->tổng số account
+                    + Có thể chọn nhiều account không theo thứ tự bằng cách tick vào ô account
+                + Số room đang xem nhỏ hơn hoặc bằng:
+                    + Mặc định là 10
+                    + Có thể chọn từ 0 đến 10
+            - Sort:
+                + Theo số lượng room đang xem
+                + Theo ngày tạo
+                + Theo ngày cập nhật
+                + Theo ngày xem gần nhất
+            => Lấy X account đầu tiên từ danh sách đã lọc và sắp xếp
+        + Ghi chú cho phòng live (tùy chọn)
+    - Dừng phòng live:
+        + Chọn phòng live cần dừng
+    - Nhân bản phòng live:
+        + Chọn phòng live cần nhân bản
+        + Nhập số lượng account cần xem phòng live (mặc định là 1)
+        + Nhập thời gian xem phòng live (mặc định là 5 phút)
+        + Chọn danh sách account cần xem phòng live:
+            - Filter và Sort như trên
+            => Lấy X account đầu tiên từ danh sách đã lọc và sắp xếp
+    
+        
+        

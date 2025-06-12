@@ -1,0 +1,1376 @@
+{
+  "app": {
+    "title": "TTL TikTok Live Viewer",
+    "name": "TTL",
+    "subtitle": "TikTok Live Viewer",
+    "titleLabel": "App Title",
+    "nameLabel": "App Name",
+    "subtitleLabel": "App Subtitle"
+  },
+  "auth": {
+    "title": "Authentication",
+    "login": {
+      "title": "Login",
+      "subtitle": "Sign in to your account",
+      "username": "Username",
+      "password": "Password",
+      "email": "Email",
+      "submit": "Login",
+      "loading": "Logging in...",
+      "success": "Login successful!",
+      "error": "Login failed",
+      "forgotPassword": "Forgot password?",
+      "noAccount": "Don't have an account?",
+      "goToRegister": "Register now",
+      "placeholder": {
+        "username": "Enter username",
+        "password": "Enter password"
+      },
+      "validation": {
+        "usernameRequired": "Username is required",
+        "passwordRequired": "Password is required",
+        "usernameMin": "Username must be at least 3 characters",
+        "passwordMin": "Password must be at least 6 characters"
+      },
+      "copyDeviceId": "Copy Device ID",
+      "copyingDeviceId": "Copying...",
+      "deviceIdCopied": "Device ID copied to clipboard",
+      "deviceIdCopyError": "Cannot copy Device ID"
+    },
+    "register": {
+      "title": "Register",
+      "subtitle": "Create a new account",
+      "name": "Full Name",
+      "username": "Username",
+      "email": "Email",
+      "password": "Password",
+      "confirmPassword": "Confirm Password",
+      "submit": "Register",
+      "loading": "Registering...",
+      "success": "Registration successful!",
+      "error": "Registration failed",
+      "hasAccount": "Already have an account?",
+      "goToLogin": "Login now",
+      "placeholder": {
+        "name": "Enter full name",
+        "username": "Enter username",
+        "email": "Enter email address",
+        "password": "Enter password",
+        "confirmPassword": "Re-enter password"
+      },
+      "validation": {
+        "nameRequired": "Full name is required",
+        "usernameRequired": "Username is required",
+        "emailRequired": "Email is required",
+        "passwordRequired": "Password is required",
+        "confirmPasswordRequired": "Confirm password is required",
+        "nameMin": "Full name must be at least 2 characters",
+        "usernameMin": "Username must be at least 3 characters",
+        "emailInvalid": "Invalid email",
+        "passwordMin": "Password must be at least 6 characters",
+        "passwordMatch": "Passwords do not match"
+      }
+    },
+    "logout": {
+      "title": "Logout",
+      "confirm": "Are you sure you want to logout?",
+      "submit": "Logout",
+      "cancel": "Cancel",
+      "loading": "Logging out...",
+      "success": "Logged out successfully"
+    },
+    "user": {
+      "profile": "Profile",
+      "welcome": "Welcome, {{name}}!",
+      "loginTime": "Logged in at {{time}}",
+      "lastCheck": "Last check: {{time}}"
+    },
+    "connection": {
+      "testing": "Testing connection...",
+      "success": "Connection successful",
+      "failed": "Connection failed",
+      "retry": "Retry",
+      "serverUrl": "Server URL",
+      "testConnection": "Test Connection"
+    },
+    "status": {
+      "authenticated": "Authenticated",
+      "unauthenticated": "Unauthenticated",
+      "checking": "Checking...",
+      "expired": "Session expired",
+      "invalid": "Invalid session"
+    }
+  },
+  "license": {
+    "title": "License Information",
+    "status": {
+      "active": "Active"
+    },
+    "expiresAt": "Expires At",
+    "lastChecked": "Last Checked",
+    "usage": "Usage",
+    "limits": "Limits",
+    "accountsUsed": "Accounts Used",
+    "roomsUsed": "Rooms Used",
+    "maxAccounts": "Max Accounts",
+    "maxRooms": "Max Rooms",
+    "validUntil": "Valid Until",
+    "daysRemaining": "{{days}} days remaining",
+    "hoursRemaining": "{{hours}} hours remaining",
+    "expired": "Expired",
+    "active": "Active",
+    "inactive": "Inactive",
+    "trial": "Trial",
+    "premium": "Premium",
+    "basic": "Basic",
+    "unlimited": "Unlimited",
+    "lastUpdate": "Last Update",
+    "autoRefresh": "Auto Refresh",
+    "refreshNow": "Refresh Now",
+    "refreshing": "Refreshing...",
+    "info": {
+      "status": "License Status",
+      "name": "License Name",
+      "type": "License Type",
+      "expiresAt": "Expires At",
+      "daysRemaining": "Days Remaining"
+    },
+    "errors": {
+      "licenseRequired": "Valid license required for this feature",
+      "expired": "License has expired",
+      "invalid": "Invalid license",
+      "limitReached": "License limit reached",
+      "refreshFailed": "Failed to refresh license"
+    },
+    "warnings": {
+      "noValidLicense": "No valid license",
+      "accountFeaturesDisabled": "Account management features have been disabled. Please check your license.",
+      "roomFeaturesDisabled": "Room management features have been disabled. Please check your license.",
+      "taskFeaturesDisabled": "Task management features have been disabled. Please check your license.",
+      "taskManagementUnavailable": "Task management unavailable - active license required"
+    },
+    "messages": {
+      "accountLimit": "Accounts: {{current}}/{{max}}",
+      "roomLimit": "Rooms: {{current}}/{{max}}",
+      "refreshSuccess": "License refreshed successfully",
+      "refreshError": "Error refreshing license",
+      "refreshed": "License updated successfully",
+      "refreshFailed": "Failed to refresh license",
+      "noLicense": "No valid license available"
+    }
+  },
+  "home": {
+    "pageTitle": "Home - {{appTitle}}",
+    "title": "Home",
+    "welcome": "Welcome to {{appTitle}}",
+    "today": "Today",
+    "quickActions": "Quick Actions",
+    "stats": {
+      "activeViewers": "Active Viewers",
+      "totalViews": "Total Views",
+      "watchingRooms": "Watching Rooms"
+    },
+    "actions": {
+      "manageAccounts": "Manage Accounts",
+      "manageAccountsDesc": "Add, remove or edit TikTok accounts",
+      "manageProxies": "Manage Proxies",
+      "manageProxiesDesc": "Add or remove proxies for viewers",
+      "manageRooms": "Manage Live Rooms",
+      "manageRoomsDesc": "View and manage live rooms being watched"
+    },
+    "activity": {
+      "recentActivity": "Recent Activity",
+      "addedAccount": "Added new account",
+      "startedViewer": "Started viewer",
+      "importedProxy": "Imported proxy",
+      "stoppedViewer": "Stopped viewer",
+      "minutesAgo": "minutes ago",
+      "roomWatching": "Watching room @{{roomId}}",
+      "roomStopped": "Stopped watching room @{{roomId}}",
+      "roomCompleted": "Completed watching room @{{roomId}}",
+      "roomUpdated": "Updated room @{{roomId}}",
+      "noRecentActivity": "No recent activity"
+    }
+  },
+  "dashboard": {
+    "title": "Dashboard",
+    "welcome": "Welcome to {{appTitle}}",
+    "today": "Today",
+    "stats": {
+      "totalAccounts": "Total Accounts",
+      "totalProxies": "Total Proxies",
+      "activeViewers": "Active Viewers",
+      "totalViews": "Total Views"
+    },
+    "quickActions": {
+      "title": "Quick Actions",
+      "manageAccounts": {
+        "title": "Manage Accounts",
+        "description": "Add, delete or edit TikTok accounts"
+      },
+      "manageProxies": {
+        "title": "Manage Proxies",
+        "description": "Add or remove proxies for viewers"
+      },
+      "startViewer": {
+        "title": "Start Viewer",
+        "description": "Launch viewer with current settings"
+      }
+    },
+    "recentActivity": {
+      "title": "Recent Activity",
+      "addedAccount": "Added new account",
+      "startedViewer": "Started viewer",
+      "importedProxies": "Imported proxy list",
+      "stoppedViewer": "Stopped viewer",
+      "minutesAgo": "{{count}} minutes ago"
+    },
+    "tips": {
+      "title": "Usage Tips",
+      "items": [
+        "Use proxies to avoid being blocked",
+        "Don't run too many viewers at once",
+        "Regularly update proxy list",
+        "Check accounts periodically"
+      ]
+    },
+    "status": {
+      "success": "Success",
+      "info": "Info",
+      "warning": "Warning"
+    }
+  },
+  "settings": {
+    "title": "Settings",
+    "description": "Customize TikTok Live Viewer settings",
+    "resetToDefault": "Reset to default",
+    "app": {
+      "title": "App Information",
+      "titleDescription": "Display title of the application. Leave empty to use default value based on language.",
+      "nameDescription": "Short name of the application. Leave empty to use default value based on language.",
+      "subtitleDescription": "Short description of the application. Leave empty to use default value based on language."
+    },
+    "language": {
+      "title": "Language",
+      "description": "Choose display language for the application",
+      "vietnamese": "Vietnamese",
+      "english": "English",
+      "chinese": "Chinese",
+      "japanese": "Japanese",
+      "korean": "Korean",
+      "thai": "Thai",
+      "french": "French"
+    },
+    "theme": {
+      "title": "Theme",
+      "description": "Choose light or dark display mode",
+      "light": "Light",
+      "dark": "Dark",
+      "system": "System",
+      "lightMode": "Light Mode",
+      "darkMode": "Dark Mode"
+    },
+    "notifications": {
+      "title": "Notifications",
+      "description": "Configure notification and sound settings",
+      "enable": {
+        "title": "Enable notifications",
+        "description": "Show notifications for activities"
+      },
+      "sound": {
+        "title": "Notification sound",
+        "description": "Play sound when notifications appear"
+      },
+      "desktop": "Desktop notifications",
+      "desktopDescription": "Show notifications on desktop",
+      "soundDescription": "Play sound when notifications appear",
+      "test": "Test notification",
+      "testDescription": "Send a test notification to check functionality",
+      "sendTest": "Send test notification",
+      "testSent": "Test notification sent",
+      "testFailed": "Could not send test notification",
+      "roomStopped": "Show notification when a room stops streaming",
+      "newRoom": "Show notification when a new room is detected",
+      "roomStoppedDescription": "Show notification when a room stops streaming",
+      "newRoomDescription": "Show notification when a new room is added",
+      "error": {
+        "title": "An error occurred",
+        "defaultMessage": "An error occurred in the application."
+      }
+    },
+    "security": {
+      "title": "Security",
+      "description": "Configure security and session settings",
+      "twoFactor": {
+        "title": "Two-factor authentication",
+        "description": "Use two-factor authentication for increased security"
+      },
+      "sessionTimeout": {
+        "title": "Session timeout",
+        "description": "Time to automatically log out when inactive",
+        "minutes": "minutes"
+      }
+    },
+    "system": {
+      "title": "System",
+      "description": "Configure system and auto-update settings",
+      "autoUpdate": {
+        "title": "Auto-update",
+        "description": "Automatically update when new version is available"
+      },
+      "maxRoomsPerAccount": {
+        "title": "Maximum rooms per account",
+        "description": "Maximum number of live rooms that one account can watch simultaneously"
+      },
+      "accountCooldown": {
+        "title": "Account cooldown time",
+        "description": "Minimum time before an account can be used again",
+        "disabled": "Disabled",
+        "seconds": "seconds",
+        "minute": "minute",
+        "minutes": "minutes"
+      }
+    },
+    "proxy": {
+      "title": "Proxy Settings",
+      "description": "Manage proxy settings and slots per proxy",
+      "maxAccountsPerProxy": {
+        "title": "Maximum accounts per proxy",
+        "description": "Limit the number of accounts assigned to the same proxy"
+      }
+    },
+    "about": {
+      "title": "About",
+      "version": "Version",
+      "license": "License",
+      "licenseText": "Copyright © 2024 TTL TikTok Live Viewer. All rights reserved.",
+      "teamTitle": "Development Team",
+      "team": "Team Information",
+      "teamMembers": "Developed by the TTL Tech team specializing in high-performance web and application development solutions. Our team consists of experts with over 5 years of experience in the information technology field.",
+      "deviceInfo": "Device Information",
+      "platform": "Operating System",
+      "architecture": "Architecture",
+      "timestamp": "Initialization Time"
+    }
+  },
+  "accounts": {
+    "title": "Accounts",
+    "add": "Add Account",
+    "importText": "Import from Text",
+    "importFile": "Import from File",
+    "manageInFolder": "Manage TikTok accounts in folder {{folder}}",
+    "unknownFolder": "Unknown",
+    "resetConfirm": "Are you sure you want to reset all folders? All folders will be deleted and accounts will be moved to the default folder.",
+    "resetSuccess": "Reset folders successfully!",
+    "resetError": "Error resetting folders",
+    "addSuccess": "Account added successfully!",
+    "addError": "Error adding account",
+    "deleteConfirm": "Are you sure you want to delete this account?",
+    "deleteSuccess": "Account deleted successfully!",
+    "deleteError": "Error deleting account",
+    "importSuccess": "Successfully imported {{imported}} accounts!",
+    "importError": "Error importing accounts",
+    "importFileSuccess": "Successfully imported {{imported}} accounts from file!",
+    "importFileError": "Error importing from file",
+    "stats": {
+      "totalAccounts": "Total Accounts",
+      "activeAccounts": "Active",
+      "problemAccounts": "Issues",
+      "filteredAccounts": "Filtered Accounts"
+    },
+    "status": {
+      "active": "Active",
+      "inactive": "Inactive",
+      "suspended": "Suspended",
+      "error": "Error",
+      "connecting": "Connecting",
+      "403": "403 Error",
+      "403fetch": "403 Fetch Error",
+      "die": "Account Dead",
+      "diecookie": "Cookie Dead",
+      "cookiedie": "Cookie Expired",
+      "unknown": "Unknown"
+    },
+    "table": {
+      "title": "Account List",
+      "username": "Account",
+      "status": "Status",
+      "proxy": "Proxy",
+      "noProxy": "No proxy",
+      "proxyId": "Proxy ID: {{proxyId}}",
+      "currentRooms": "Current Rooms",
+      "actions": "Actions"
+    },
+    "empty": {
+      "title": "No accounts yet",
+      "description": "Start by adding your first TikTok account",
+      "addFirst": "Add first account"
+    },
+    "filters": {
+      "searchPlaceholder": "Search accounts...",
+      "advanced": "Advanced Filters",
+      "reset": "Clear Filters",
+      "folder": {
+        "all": "All folders"
+      },
+      "status": {
+        "all": "All statuses",
+        "active": "Active - Working",
+        "inactive": "Inactive - Not working",
+        "suspended": "Suspended - Blocked",
+        "error": "Error - Error state",
+        "connecting": "Connecting - Connecting state",
+        "403": "403 - 403 Error",
+        "403fetch": "403fetch - 403 Fetch Error",
+        "die": "Die - Account dead",
+        "diecookie": "Diecookie - Cookie dead",
+        "cookiedie": "Cookiedie - Cookie expired",
+        "enter403": "Enter403 - 403 error on access",
+        "fetch403": "Fetch403 - 403 error on fetch"
+      },
+      "sort": {
+        "activeRooms": "Number of active rooms",
+        "createdAt": "Creation date",
+        "updatedAt": "Update date",
+        "lastUsed": "Last used date",
+        "username": "Account name"
+      },
+      "proxy": {
+        "title": "Specific Proxy",
+        "all": "All proxies",
+        "none": "No proxy"
+      },
+      "proxyFolder": {
+        "title": "Proxy Folder",
+        "all": "All proxy folders"
+      },
+      "noProxy": "Accounts without proxy",
+      "activeRooms": {
+        "title": "Number of active rooms"
+      },
+      "selectedAccounts": {
+        "title": "Select accounts by position",
+        "placeholder": "E.g.: 1-10, 15, 20-25 or leave empty to select all",
+        "description": "Enter numbers or ranges, separated by commas. E.g.: 1-5, 10, 15-20"
+      }
+    },
+    "bulkActionsButton": "Bulk Actions ({{count}})",
+    "bulkActions": {
+      "title": "Bulk Actions",
+      "selectedCount": "Selected {{count}} accounts",
+      "setProxy": {
+        "title": "Assign proxy",
+        "description": "Assign proxy to selected accounts"
+      },
+      "removeProxy": {
+        "title": "Remove proxy",
+        "description": "Remove proxy from accounts"
+      },
+      "setStatus": {
+        "title": "Set status",
+        "active": "Active",
+        "inactive": "Pause"
+      },
+      "moveToFolder": {
+        "title": "Move to folder",
+        "selectFolder": "Select folder..."
+      },
+      "checkActivity": {
+        "title": "Check activity",
+        "description": "Update account status"
+      },
+      "delete": {
+        "title": "Delete accounts",
+        "description": "Permanently delete selected accounts",
+        "confirm": "Are you sure you want to delete {{count}} selected accounts?"
+      }
+    },
+    "proxy": {
+      "setSuccess": "Proxy assigned successfully",
+      "setError": "Error assigning proxy",
+      "deleteSuccess": "Proxy removed successfully"
+    },
+    "errors": {
+      "selectAtLeastOne": "Please select at least one account",
+      "setProxyGeneral": "Error assigning proxy: {{error}}",
+      "resetGeneral": "Error resetting folders: {{error}}",
+      "importTextGeneral": "Error importing accounts: {{error}}",
+      "importFileGeneral": "Error importing from file: {{error}}"
+    },
+    "modal": {
+      "importFile": {
+        "title": "Import Accounts from File",
+        "selectFolder": "Select Folder",
+        "selectFile": "Select File",
+        "supportedFormats": "Supports .txt and .csv files with format: username:password"
+      },
+      "setProxy": {
+        "title": "Set proxy for {{count}} accounts",
+        "proxyFolder": "Proxy folder",
+        "accountsPerProxy": "Accounts per proxy (max 10)",
+        "accountsPerProxyNote": "Note: This setting is configured in Settings > Proxy Settings and applies to all new proxy assignments.",
+        "maxAccountsPerProxy": "Maximum accounts per proxy",
+        "configuredInSettings": "Configured in Settings",
+        "totalProxies": "Total proxies",
+        "availableProxies": "Available proxies",
+        "minProxiesNeeded": "Proxies needed",
+        "selectedProxies": "Selected proxies",
+        "proxies": "proxies",
+        "selectProxies": "Select proxies ({{selected}}/{{needed}})",
+        "availableSlots": "{{slots}} slots available",
+        "noProxiesInFolder": "No proxies in this folder",
+        "allProxiesFull": "All proxies in this folder are full",
+        "selectOtherFolder": "Please select another proxy folder",
+        "cancel": "Cancel",
+        "apply": "Apply",
+        "applying": "Applying...",
+        "validation": {
+          "noAvailableProxies": "No available proxies in this folder",
+          "selectAtLeastOne": "Please select at least one proxy",
+          "needMoreProxies": "Need {{count}} more proxies",
+          "notEnoughSlots": "Not enough slots (need {{needed}}, have {{available}})",
+          "enoughProxies": "Enough slots ({{slots}} slots for {{accounts}} accounts)"
+        }
+      },
+      "addAccount": {
+        "title": "Add New Account",
+        "username": "Username",
+        "usernamePlaceholder": "Enter username",
+        "password": "Password",
+        "passwordPlaceholder": "Enter password",
+        "folder": "Folder",
+        "cancel": "Cancel",
+        "adding": "Adding...",
+        "add": "Add Account"
+      },
+      "addFolder": {
+        "title": "Create New Folder",
+        "name": "Folder Name",
+        "namePlaceholder": "Enter folder name",
+        "description": "Description (optional)",
+        "descriptionPlaceholder": "Enter folder description",
+        "color": "Color",
+        "cancel": "Cancel",
+        "adding": "Creating...",
+        "add": "Create Folder"
+      },
+      "importText": {
+        "title": "Import accounts from text",
+        "folder": "Select folder",
+        "text": "Account data",
+        "textPlaceholder": "username1|password1|email1|emailpass1|cookie1\nusername2|password2|email2|emailpass2|cookie2\n...",
+        "formatDescription": "Format: username|password|email|emailpass|cookie (one account per line)",
+        "cancel": "Cancel",
+        "importing": "Importing...",
+        "import": "Import Accounts",
+        "validation": {
+          "emptyData": "Please enter account data"
+        },
+        "note1": "Username and password are required",
+        "note2": "Email, email password and cookie are optional",
+        "note3": "Use | to separate fields",
+        "note4": "Each account on a separate line"
+      },
+      "folders": {
+        "title": "Folders",
+        "resetToDefault": "Reset to default folders",
+        "accountCount": "accounts",
+        "addNew": "Add New Folder"
+      }
+    },
+    "folders": {
+      "title": "Folders",
+      "resetToDefault": "Reset to default folders",
+      "accountCount": "accounts",
+      "addNew": "Add New Folder"
+    }
+  },
+  "proxies": {
+    "title": "Proxies",
+    "description": "Manage your proxy servers",
+    "defaultFolder": "Default",
+    "folders": "Folders",
+    "resetFolders": "Reset Folders",
+    "resetConfirm": "Are you sure you want to reset folder data? This will recreate 3 default proxy folders.",
+    "resetSuccess": "Reset folder data successfully!",
+    "resetError": "Error resetting",
+    "filter": "Filter",
+    "bulkActions": "Actions ({{count}})",
+    "export": "Export",
+    "import": "Import",
+    "add": "Add Proxy",
+    "advancedFilter": "Advanced Filter",
+    "loading": "Loading proxy list...",
+    "filters": {
+      "folder": "Folder",
+      "allFolders": "All folders",
+      "status": "Activity status",
+      "allStatuses": "All statuses",
+      "active": "Active proxies",
+      "inactive": "Inactive proxies",
+      "suspended": "Suspended proxies",
+      "enter403": "403 error on access",
+      "fetch403": "403 error on fetch",
+      "minAccounts": "Assigned accounts ≥",
+      "maxAccounts": "Assigned accounts ≤",
+      "searchTerm": "Search proxy",
+      "searchTermPlaceholder": "Enter IP, port or username...",
+      "sortBy": "Sort by",
+      "assignedAccountsCount": "By assigned accounts count",
+      "createdAt": "By creation date",
+      "updatedAt": "By update date",
+      "lastUsed": "By last used date",
+      "sortAsc": "Ascending",
+      "sortDesc": "Descending",
+      "found": "Found {{count}} matching proxies",
+      "clearFilter": "Clear filter",
+      "apply": "Apply"
+    },
+    "table": {
+      "title": "Proxy List",
+      "selectAll": "Select all",
+      "proxy": "Proxy",
+      "status": "Status",
+      "assignedAccounts": "Assigned accounts",
+      "createdAt": "Created",
+      "actions": "Actions"
+    },
+    "empty": {
+      "title": "No proxies yet",
+      "description": "Start by adding your first proxy",
+      "addFirst": "Add first proxy"
+    },
+    "pagination": "Page {{page}} / {{totalPages}} ({{totalCount}} proxies)",
+    "addModal": {
+      "title": "Add New Proxy",
+      "ip": "IP",
+      "ipPlaceholder": "Enter IP address",
+      "port": "Port",
+      "portPlaceholder": "Enter port",
+      "username": "Username",
+      "usernamePlaceholder": "Enter username (optional)",
+      "password": "Password",
+      "passwordPlaceholder": "Enter password (optional)",
+      "type": "Proxy Type",
+      "http": "HTTP",
+      "socks5": "SOCKS5",
+      "folder": "Folder",
+      "noFolder": "None",
+      "cancel": "Cancel",
+      "adding": "Adding...",
+      "add": "Add Proxy",
+      "validation": {
+        "required": "Please enter complete proxy information"
+      },
+      "error": "Error adding proxy",
+      "generalError": "An error occurred while adding proxy"
+    },
+    "addFolderModal": {
+      "title": "Add New Folder",
+      "name": "Folder name",
+      "namePlaceholder": "Enter folder name",
+      "description": "Description",
+      "descriptionPlaceholder": "Enter description (optional)",
+      "color": "Color",
+      "cancel": "Cancel",
+      "adding": "Adding...",
+      "add": "Add Folder"
+    },
+    "importModal": {
+      "title": "Import Proxies from File or Text",
+      "fromFile": "Import from file",
+      "chooseFile": "Choose file",
+      "orText": "Or enter text",
+      "textPlaceholder": "Enter proxy list with one proxy per line",
+      "folder": "Proxy folder",
+      "defaultFolder": "Default folder",
+      "success": "Import successful!",
+      "error": "Error importing",
+      "imported": "Imported {{count}} proxies.",
+      "cancel": "Close",
+      "importing": "Importing...",
+      "import": "Import Proxies",
+      "fileLoaded": "File \"{{fileName}}\" loaded successfully. Click \"Import proxy\" to continue.",
+      "fileReadError": "Cannot read file. Please check and try again."
+    },
+    "exportModal": {
+      "title": "Export Proxy List",
+      "format": "Export format",
+      "defaultFormat": "ip:port:username:password (default)",
+      "ipPort": "ip:port",
+      "ipPortUsername": "ip:port:username",
+      "usernamePasswordIpPort": "username:password@ip:port",
+      "exportSelected": "Will export {{count}} selected proxies",
+      "exportAll": "Will export all {{count}} current proxies",
+      "cancel": "Cancel",
+      "export": "Export proxies"
+    },
+    "bulkActionsModal": {
+      "title": "Bulk Actions ({{count}} proxies)",
+      "testProxies": "Test activity",
+      "testTimeout": "Test timeout",
+      "defaultTimeout": "5 seconds (default)",
+      "tenSeconds": "10 seconds",
+      "fifteenSeconds": "15 seconds",
+      "thirtySeconds": "30 seconds",
+      "testSelected": "Test selected proxies",
+      "moveToFolder": "Move to folder",
+      "chooseFolder": "Choose destination folder",
+      "moveSelected": "Move proxies",
+      "exportSelected": "Export proxies",
+      "defaultFormat": "ip:port:username:password",
+      "ipPort": "ip:port",
+      "ipPortUsername": "ip:port:username",
+      "usernamePasswordIpPort": "username:password@ip:port",
+      "deleteSelected": "Delete proxies",
+      "deleteWarning": "This action cannot be undone!",
+      "confirmDelete": "Are you sure you want to delete {{count}} selected proxies?",
+      "delete": "Delete proxies",
+      "cancel": "Close"
+    },
+    "errors": {
+      "resetGeneral": "Error occurred while resetting folder data"
+    },
+    "testing": "Testing",
+    "notTested": "Not tested",
+    "deleteConfirm": "Are you sure you want to delete this proxy?",
+    "deleteError": "Error deleting proxy",
+    "deleteGeneralError": "An error occurred while deleting proxy"
+  },
+  "rooms": {
+    "title": "Room Management",
+    "description": "Add, stop and manage TikTok live rooms",
+    "add": "Add Live Room",
+    "quickManagement": "Quick room management",
+    "pagination": {
+      "showing": "Showing",
+      "of": "of",
+      "items": "items",
+      "itemsPerPage": "Items per page",
+      "previous": "Previous",
+      "next": "Next",
+      "page": "Page",
+      "goToPage": "Go to page",
+      "firstPage": "First page",
+      "lastPage": "Last page"
+    },
+    "stats": {
+      "totalRooms": "Total Live Rooms",
+      "total": "Total Rooms",
+      "watching": "Watching",
+      "stopped": "Stopped",
+      "completed": "Completed",
+      "totalViewers": "Total Viewers",
+      "avgViewers": "Average Viewers"
+    },
+    "filters": {
+      "title": "Filters",
+      "status": "Status",
+      "all": "All",
+      "watching": "Watching",
+      "stopped": "Stopped",
+      "completed": "Completed",
+      "minViewers": "Minimum viewers",
+      "maxViewers": "Maximum viewers",
+      "minDuration": "Min Duration",
+      "maxDuration": "Max Duration",
+      "search": "Search",
+      "searchPlaceholder": "Search room URL...",
+      "dateFrom": "From Date",
+      "dateTo": "To Date"
+    },
+    "table": {
+      "title": "Live Room List ({{count}})",
+      "roomUrl": "Live Room",
+      "status": "Status",
+      "viewers": "Viewers",
+      "toolViewers": "Tool Viewers",
+      "realViewers": "TikTok Viewers",
+      "duration": "Duration",
+      "notes": "Notes",
+      "actions": "Actions",
+      "startedAt": "Started:",
+      "notStarted": "Not started",
+      "minutes": "minutes",
+      "uid": "UID:",
+      "lastCheck": "Last Check"
+    },
+    "status": {
+      "watching": "Watching",
+      "stopped": "Stopped",
+      "completed": "Completed",
+      "unknown": "Unknown",
+      "notChecked": "Not checked",
+      "justNow": "Just now",
+      "minutesAgo": "{{count}} minutes ago",
+      "hoursAgo": "{{count}} hours ago",
+      "daysAgo": "{{count}} days ago"
+    },
+    "actions": {
+      "stop": "Stop live room",
+      "duplicate": "Duplicate",
+      "delete": "Delete",
+      "start": "Start",
+      "clearAll": "Clear all rooms",
+      "addNew": "Add New Room",
+      "filter": "Filter",
+      "bulkActions": "Bulk Actions",
+      "export": "Export",
+      "viewChart": "View Chart"
+    },
+    "empty": {
+      "title": "No live rooms yet",
+      "description": "Start by adding your first live room."
+    },
+    "debug": {
+      "totalAccounts": "Total accounts",
+      "folders": "Folders",
+      "filteredAccounts": "Filtered accounts",
+      "roomUrl": "Room URL",
+      "extractedRoomId": "Extracted room_id",
+      "accountsWithActiveRooms": "Accounts with activeRooms",
+      "accountCooldown": "Account cooldown time",
+      "accountsInCooldown": "Accounts in cooldown",
+      "remainingTime": "Remaining time"
+    },
+    "modal": {
+      "addRoom": {
+        "title": "Add New Live Room",
+        "roomUrl": "Room ID / URL",
+        "roomUrlPlaceholder": "Example: 7508300389638194696 or https://www.tiktok.com/@username/live",
+        "roomUrlDescription": "Enter Room ID or full URL of TikTok live room",
+        "targetViewers": "Number of accounts",
+        "availableAccounts": "Available: {{count}} accounts",
+        "duration": "Watch duration (minutes)",
+        "notes": "Notes (optional)",
+        "notesPlaceholder": "Notes about this live room...",
+        "selectAccounts": "Select Accounts",
+        "accountFilters": "Filter accounts",
+        "folder": "Folder",
+        "allFolders": "All folders",
+        "accountStatus": "Status",
+        "allStatuses": "All statuses",
+        "proxy": "Proxy",
+        "allProxies": "All",
+        "withProxy": "With proxy",
+        "withoutProxy": "Without proxy",
+        "maxCurrentRooms": "Max current rooms",
+        "quickSelection": "Quick Selection",
+        "quickSelectionDescription": "Automatically select {{count}} suitable accounts",
+        "canSelectMore": "Can select {{count}} more accounts",
+        "accountsTable": {
+          "selectAll": "Select all",
+          "username": "Account",
+          "status": "Status",
+          "proxy": "Proxy",
+          "currentRooms": "Current rooms",
+          "noProxy": "No proxy"
+        },
+        "cancel": "Cancel",
+        "adding": "Adding...",
+        "add": "Add Live Room",
+        "addWithCount": "Add Live Room ({{count}} accounts)",
+        "selectSpecificAccounts": "Select specific accounts",
+        "quickSelectionByPosition": "Quick selection by position",
+        "filteredAccounts": "{{count}} matching accounts",
+        "selectedAccounts": "{{count}} accounts"
+      }
+    },
+    "messages": {
+      "enterRoomUrl": "Please enter live room URL",
+      "selectAtLeastOne": "Please select at least one account",
+      "roomAdded": "Live room added successfully",
+      "roomDeleted": "Live room deleted",
+      "roomStopped": "Live room stopped",
+      "confirmDelete": "Are you sure you want to delete this live room?",
+      "confirmStop": "Are you sure you want to stop this live room?",
+      "confirmClearAll": "Are you sure you want to clear all activeRooms of ALL accounts? This action cannot be undone!",
+      "clearAllSuccess": "✅ Cleared activeRooms of {{count}} accounts",
+      "clearAllError": "❌ Error",
+      "clearAllGeneralError": "❌ An error occurred while clearing rooms",
+      "addRoomError": "Error adding live room",
+      "addRoomGeneralError": "An error occurred while adding live room",
+      "stopRoomError": "Error stopping live room",
+      "stopRoomGeneralError": "An error occurred while stopping live room",
+      "deleteRoomError": "Error deleting live room",
+      "deleteRoomGeneralError": "An error occurred while deleting live room",
+      "alreadySelectedEnough": "You have already selected {{count}} accounts!",
+      "cannotSelectMore": "Cannot select more accounts",
+      "noRooms": "No rooms yet",
+      "loadingRooms": "Loading rooms...",
+      "addSuccess": "Room added successfully!",
+      "addError": "Error adding room",
+      "deleteConfirm": "Are you sure you want to delete this room?",
+      "deleteSuccess": "Room deleted successfully!",
+      "deleteError": "Error deleting room",
+      "stopConfirm": "Are you sure you want to stop this room?",
+      "stopSuccess": "Room stopped successfully!",
+      "stopError": "Error stopping room"
+    },
+    "errors": {
+      "roomNotFound": "Room not found",
+      "writeFailed": "Write failed",
+      "unknownError": "Unknown error"
+    },
+    "viewerStats": {
+      "title": "Viewer Statistics",
+      "currentCount": "Current: {{count}}",
+      "lastChecked": "Last checked: {{time}}",
+      "history": "Viewer History",
+      "noData": "No data available",
+      "totalViews": "Total Views",
+      "peakViewers": "Peak: {{count}}",
+      "averageViewers": "Average: {{count}}"
+    },
+    "autoRefresh": {
+      "label": "Auto Refresh",
+      "interval": "Interval",
+      "next": "Next: {{countdown}}s",
+      "refresh": "Refresh"
+    },
+    "sort": {
+      "createdAt": "Created At",
+      "currentViewers": "Current Viewers",
+      "status": "Status",
+      "asc": "Ascending",
+      "desc": "Descending"
+    },
+    "chart": {
+      "title": "Viewer History Chart",
+      "loading": "Loading data...",
+      "loadError": "Error loading chart data",
+      "noData": "No data to display",
+      "viewersAxis": "Viewers",
+      "timeAxis": "Time",
+      "viewers": "viewers",
+      "offline": "Offline",
+      "days": {
+        "1": "1 day",
+        "3": "3 days",
+        "7": "7 days",
+        "30": "30 days"
+      },
+      "stats": {
+        "totalPoints": "Total Data Points",
+        "maxViewers": "Max Viewers",
+        "avgViewers": "Average",
+        "offlinePoints": "Offline Points"
+      }
+    }
+  },
+  "chart": {
+    "title": "Viewer History Chart",
+    "loading": "Loading data...",
+    "loadError": "Error loading chart data",
+    "noData": "No data to display",
+    "viewersAxis": "Viewers",
+    "timeAxis": "Time",
+    "viewers": "viewers",
+    "offline": "Offline",
+    "days": {
+      "1": "1 day",
+      "3": "3 days",
+      "7": "7 days",
+      "30": "30 days"
+    },
+    "stats": {
+      "totalPoints": "Total Data Points",
+      "maxViewers": "Max Viewers",
+      "avgViewers": "Average",
+      "offlinePoints": "Offline Points"
+    }
+  },
+  "common": {
+    "cancel": "Cancel",
+    "save": "Save",
+    "delete": "Delete",
+    "edit": "Edit",
+    "add": "Add",
+    "close": "Close",
+    "confirm": "Confirm",
+    "loading": "Loading...",
+    "success": "Success",
+    "error": "Error",
+    "warning": "Warning",
+    "info": "Info",
+    "reload": "Reload",
+    "result": "Result",
+    "selected": "Selected",
+    "selectStatus": "Select status",
+    "deselect": "Deselect",
+    "from": "From",
+    "to": "To",
+    "selectRange": "Select range",
+    "note": "Note",
+    "unknown": "Unknown",
+    "hiddenEmail": "Hidden email",
+    "default": "Default",
+    "defaultDescription": "Default folder",
+    "defaultAccountFolder": "Default folder for accounts",
+    "defaultProxyFolder": "Default folder for proxies",
+    "ok": "OK",
+    "selectOption": "Select an option...",
+    "pagination": {
+      "showing": "Showing",
+      "of": "of",
+      "items": "items",
+      "itemsPerPage": "Items per page",
+      "previous": "Previous",
+      "next": "Next",
+      "page": "Page",
+      "goToPage": "Go to page",
+      "firstPage": "First page",
+      "lastPage": "Last page"
+    }
+  },
+  "analytics": {
+    "title": "Analytics",
+    "description": "Performance statistics and activity of TikTok Live Viewer",
+    "refresh": "Refresh",
+    "loading": "Loading data...",
+    "views": "views",
+    "likes": "likes",
+    "current": "Current",
+    "used": "Used",
+    "noData": "No data available",
+    "noAccountData": "No account data available",
+    "noActivity": "No recent activities",
+    "totalViews": "Total Views",
+    "totalLikes": "Total Likes",
+    "totalComments": "Total Comments",
+    "activeViewers": "Active Viewers",
+    "totalRuntime": "Total Runtime",
+    "totalAccounts": "Total Accounts",
+    "averagePerformance": "Average Performance",
+    "viewsPerAccount": "Views/Account",
+    "dailyStats": "Daily Statistics",
+    "topAccounts": "Top Performing Accounts",
+    "recentActivities": "Recent Activities",
+    "timeRange": {
+      "24h": "Last 24 hours",
+      "7days": "Last 7 days",
+      "30days": "Last 30 days",
+      "90days": "Last 90 days"
+    }
+  },
+  "landing": {
+    "title": "TTL TikTok Live Viewer - Boost TikTok livestream views",
+    "appName": "TTL",
+    "subtitle": "TikTok Live Viewer",
+    "hero": {
+      "headline": "Boost Livestream Views",
+      "subHeadline": "Professional TikTok",
+      "description": "Powerful application to automatically and safely increase your TikTok livestream views"
+    },
+    "features": {
+      "autoViews": {
+        "title": "Auto View Boost",
+        "description": "Automatically increase livestream views with multiple accounts simultaneously"
+      },
+      "accountManagement": {
+        "title": "Account Management",
+        "description": "Easily manage multiple TikTok accounts and proxies"
+      },
+      "security": {
+        "title": "Safe & Secure",
+        "description": "Use proxies and anonymization techniques to protect your accounts"
+      }
+    },
+    "cta": {
+      "start": "Get Started",
+      "manageAccounts": "Manage Accounts"
+    },
+    "stats": {
+      "accounts": "Supported accounts",
+      "uptime": "24/7 operation",
+      "safety": "Safe",
+      "unlimited": "Unlimited"
+    },
+    "footer": "© 2025 TTL Tools. Developed with advanced technology."
+  },
+  "navigation": {
+    "home": "Home",
+    "accounts": "Accounts",
+    "rooms": "Live Rooms",
+    "analytics": "Analytics",
+    "pricing": "Service Packages",
+    "proxies": "Proxies",
+    "settings": "Settings",
+    "tasks": "Task Scheduler"
+  },
+  "addRoom": "Add Live Room",
+  "quickManage": "Quick room management",
+  "lightMode": "Light mode",
+  "darkMode": "Dark mode",
+  "language": "Language",
+  "tasks": {
+    "title": "Task Scheduler",
+    "description": "Manage automated tasks",
+    "add": "Add Task",
+    "edit": "Edit Task",
+    "delete": "Delete Task",
+    "name": "Task Name",
+    "handler": "Handler Function",
+    "interval": "Repeat Interval",
+    "status": "Status",
+    "lastRun": "Last Run",
+    "nextRun": "Next Run",
+    "runCount": "Run Count",
+    "errorCount": "Error Count",
+    "enabled": "Enabled",
+    "runNow": "Run Now",
+    "minutes": "minutes",
+    "hours": "hours",
+    "days": "days",
+    "seconds": "seconds",
+    "statusValues": {
+      "idle": "Idle",
+      "running": "Running",
+      "completed": "Completed",
+      "error": "Error"
+    },
+    "handlers": {
+      "checkAccountHealth": "Check account health",
+      "updateProxyStatus": "Update proxy status",
+      "cleanupOldData": "Clean up old data",
+      "backupData": "Backup data",
+      "backupDataWithoutHistory": "Backup data (without history)",
+      "monitorRooms": "Monitor live rooms",
+      "updateAccountsInfo": "Update accounts information",
+      "refreshLicense": "Refresh license information",
+      "autoStopExpiredRooms": "Auto stop expired rooms"
+    },
+    "messages": {
+      "addSuccess": "Task added successfully",
+      "updateSuccess": "Task updated successfully",
+      "deleteSuccess": "Task deleted successfully",
+      "runSuccess": "Task executed successfully",
+      "enableSuccess": "Task enabled successfully",
+      "disableSuccess": "Task disabled successfully",
+      "deleteConfirm": "Are you sure you want to delete this task?",
+      "noTasks": "No tasks yet",
+      "noTasksDescription": "Start by creating your first automated task",
+      "addFirstTask": "Add first task"
+    }
+  },
+  "pagination": {
+    "showing": "Showing",
+    "of": "of",
+    "items": "items",
+    "itemsPerPage": "Items per page",
+    "previous": "Previous",
+    "next": "Next",
+    "page": "Page",
+    "goToPage": "Go to page",
+    "firstPage": "First page",
+    "lastPage": "Last page"
+  },
+  "notifications": {
+    "newRoom": {
+      "title": "New room detected",
+      "body": "Room \"{roomIdentifier}\" has just started streaming."
+    },
+    "roomStopped": {
+      "title": "Room has stopped",
+      "body": "Room \"{roomIdentifier}\" has stopped streaming."
+    },
+    "error": {
+      "title": "An error occurred",
+      "defaultMessage": "An error occurred in the application."
+    }
+  },
+  "pricing": {
+    "title": "Service Packages",
+    "pageTitle": "Service Packages - {{appTitle}}",
+    "subtitle": "Cost and profit analysis for TikTok Live service packages",
+    "basicCosts": {
+      "title": "Basic Costs",
+      "accountCost": "Account cost",
+      "accountCostUnit": "account",
+      "proxyCost": "Proxy cost",
+      "proxyCostUnit": "month (5 accounts/proxy)",
+      "revenue": "Revenue",
+      "revenueUnit": "account/minute",
+      "dailyMinutes": "Minutes per acc/day",
+      "dailyMinutesUnit": "minutes",
+      "calculate": "Calculate",
+      "reset": "Reset to default"
+    },
+    "packageTable": {
+      "title": "Service Package List",
+      "package": "Package",
+      "accounts": "Accounts",
+      "rooms": "Rooms", 
+      "duration": "Duration",
+      "durationDays": "{{days}} days",
+      "licenseCost": "License Cost",
+      "loading": "Loading data...",
+      "error": "Error loading service package data",
+      "retry": "Retry"
+    },
+    "revenueAnalysis": {
+      "title": "Revenue Analysis",
+      "package": "Package",
+      "dailyRevenue": "Daily Revenue",
+      "monthlyRevenue": "Monthly Revenue",
+      "firstMonthCost": "First Month Cost",
+      "proxyMonthlyCost": "Proxy Cost/Month",
+      "licenseMonthlyCost": "License Cost/Month",
+      "monthlyCost": "Total Monthly Cost",
+      "monthlyProfit": "Monthly Profit",
+      "roi": "ROI %",
+      "positive": "Profitable",
+      "negative": "Loss"
+    },
+    "breakEven": {
+      "title": "Break-Even Analysis",
+      "package": "Package",
+      "minutesPerDay": "Minutes/day required",
+      "hoursPerDay": "Hours/day",
+      "feasibility": "Feasibility",
+      "veryFeasible": "Very feasible",
+      "feasible": "Feasible",
+      "challenging": "Challenging",
+      "unfeasible": "Unfeasible",
+      "hoursUnit": "hours"
+    },
+    "currency": "VND",
+    "calculations": {
+      "dailyRevenueFormula": "= {{accounts}} accounts × {{minutes}} minutes × {{rate}} VND/minute",
+      "monthlyRevenueFormula": "= Daily revenue × 30 days",
+      "firstMonthCostFormula": "= ({{accounts}} × {{accountCost}}) + ({{proxies}} × {{proxyCost}}) + {{licenseCost}}",
+      "monthlyCostFormula": "= {{proxies}} proxies × {{proxyCost}} VND",
+      "monthlyProfitFormula": "= Monthly revenue - Monthly cost"
+    }
+  },
+  "menu": {
+    "app": {
+      "about": "About {appName}",
+      "hide": "Hide {appName}",
+      "hideOthers": "Hide Others",
+      "showAll": "Show All",
+      "quit": "Quit {appName}"
+    },
+    "file": {
+      "title": "File",
+      "newRoom": "New Live Room...",
+      "newAccount": "New Account...",
+      "newProxy": "New Proxy...",
+      "importAccountsText": "Import Accounts from Text...",
+      "importProxiesText": "Import Proxies from Text...",
+      "close": "Close Window"
+    },
+    "edit": {
+      "title": "Edit",
+      "undo": "Undo",
+      "redo": "Redo",
+      "cut": "Cut",
+      "copy": "Copy",
+      "paste": "Paste",
+      "selectAll": "Select All"
+    },
+    "view": {
+      "title": "View",
+      "reload": "Reload",
+      "toggleDevTools": "Toggle Developer Tools",
+      "resetZoom": "Reset Zoom",
+      "zoomIn": "Zoom In",
+      "zoomOut": "Zoom Out",
+      "toggleFullscreen": "Toggle Fullscreen"
+    },
+    "tools": {
+      "title": "Tools",
+      "checkAllAccounts": "Check All Accounts",
+      "checkAllProxies": "Check All Proxies",
+      "clearCache": "Clear Cache",
+      "exportData": "Export Data",
+      "importData": "Import Data",
+      "backupData": "Backup Data",
+      "backupDataFull": "Full Backup",
+      "backupDataCompact": "Compact Backup (without history)"
+    },
+    "window": {
+      "title": "Window",
+      "minimize": "Minimize",
+      "zoom": "Zoom",
+      "front": "Bring All to Front"
+    },
+    "help": {
+      "title": "Help",
+      "documentation": "Documentation",
+      "reportIssue": "Report Issue",
+      "checkForUpdates": "Check for Updates",
+      "about": "About"
+    }
+  },
+  "update": {
+    "title": "App Updates",
+    "description": "Manage automatic updates and check for new versions",
+    "currentVersion": "Current Version",
+    "lastChecked": "Last Checked",
+    "neverChecked": "Never checked",
+    "justNow": "Just now",
+    "minutesAgo": "{{minutes}} minutes ago",
+    "hoursAgo": "{{hours}} hours ago",
+    "daysAgo": "{{days}} days ago", 
+    "checking": "Checking...",
+    "checkNow": "Check Now",
+    "upToDate": "Up to Date",
+    "upToDateDescription": "You are running the latest version",
+    "updateAvailable": "Update Available",
+    "newVersionAvailable": "Version {{latest}} is available (current: {{current}})",
+    "releaseNotes": "Release Notes",
+    "available": {
+      "title": "Update Available",
+      "message": "Version {{latestVersion}} is available (current: {{currentVersion}})"
+    },
+    "fileSize": "File Size",
+    "publishedAt": "Published At",
+    "showReleaseNotes": "Show Release Notes",
+    "hideReleaseNotes": "Hide Release Notes",
+    "downloading": "Downloading...",
+    "download": "Download",
+    "dismiss": "Dismiss",
+    "downloadInstall": "Download & Install",
+    "skip": "Skip",
+    "autoUpdateWarning": "Update detected automatically. Recommend downloading now.",
+    "settings": {
+      "title": "Update Settings",
+      "autoCheck": "Automatically check for updates",
+      "autoCheckDescription": "Automatically check for new versions in background",
+      "checkInterval": "Check Frequency",
+      "intervalDescription": "Time between update checks"
+    },
+    "interval": {
+      "30minutes": "30 minutes",
+      "1hour": "1 hour", 
+      "4hours": "4 hours",
+      "daily": "Daily"
+    },
+    "info": {
+      "title": "Update Information",
+      "updateSource": "Update Source",
+      "updateType": "Update Type",
+      "fullUpdate": "Full Update",
+      "downloadLocation": "Download Location",
+      "tempDirectory": "Temp Directory",
+      "backupCreated": "Backup Created",
+      "yes": "Yes",
+      "githubReleases": "GitHub Releases"
+    },
+    "advanced": {
+      "title": "Advanced Options",
+      "channel": "Update Channel",
+      "platform": "Platform",
+      "repository": "Repository",
+      "stable": "Stable"
+    },
+    "updateNow": "Update Now",
+    "clickToUpdateNow": "Click to update now"
+  },
+  "debug": {
+    "mode": "Debug",
+    "info": "Debug info"
+  },
+  "retry": "Retry"
+}

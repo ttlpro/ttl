@@ -1,0 +1,1381 @@
+{
+  "app": {
+    "title": "TTL TikTok Live Viewer",
+    "name": "TTL",
+    "subtitle": "TikTok Live Viewer",
+    "titleLabel": "Titre de l'application",
+    "nameLabel": "Nom de l'application",
+    "subtitleLabel": "Sous-titre de l'application"
+  },
+  "auth": {
+    "title": "Authentification",
+    "login": {
+      "title": "Connexion",
+      "subtitle": "Connectez-vous à votre compte",
+      "username": "Nom d'utilisateur",
+      "password": "Mot de passe",
+      "email": "Email",
+      "submit": "Se connecter",
+      "loading": "Connexion en cours...",
+      "success": "Connexion réussie!",
+      "error": "Échec de la connexion",
+      "forgotPassword": "Mot de passe oublié?",
+      "noAccount": "Vous n'avez pas de compte?",
+      "goToRegister": "S'inscrire maintenant",
+      "placeholder": {
+        "username": "Entrez le nom d'utilisateur",
+        "password": "Entrez le mot de passe"
+      },
+      "validation": {
+        "usernameRequired": "Le nom d'utilisateur est requis",
+        "passwordRequired": "Le mot de passe est requis",
+        "usernameMin": "Le nom d'utilisateur doit contenir au moins 3 caractères",
+        "passwordMin": "Le mot de passe doit contenir au moins 6 caractères"
+      },
+      "copyDeviceId": "Copier l'ID de l'appareil",
+      "copyingDeviceId": "Copie en cours...",
+      "deviceIdCopied": "ID de l'appareil copié dans le presse-papiers",
+      "deviceIdCopyError": "Impossible de copier l'ID de l'appareil"
+    },
+    "register": {
+      "title": "Inscription",
+      "subtitle": "Créer un nouveau compte",
+      "name": "Nom complet",
+      "username": "Nom d'utilisateur",
+      "email": "Email",
+      "password": "Mot de passe",
+      "confirmPassword": "Confirmer le mot de passe",
+      "submit": "S'inscrire",
+      "loading": "Inscription en cours...",
+      "success": "Inscription réussie!",
+      "error": "Échec de l'inscription",
+      "hasAccount": "Vous avez déjà un compte?",
+      "goToLogin": "Se connecter maintenant",
+      "placeholder": {
+        "name": "Entrez le nom complet",
+        "username": "Entrez le nom d'utilisateur",
+        "email": "Entrez l'adresse email",
+        "password": "Entrez le mot de passe",
+        "confirmPassword": "Répétez le mot de passe"
+      },
+      "validation": {
+        "nameRequired": "Le nom complet est requis",
+        "usernameRequired": "Le nom d'utilisateur est requis",
+        "emailRequired": "L'email est requis",
+        "passwordRequired": "Le mot de passe est requis",
+        "confirmPasswordRequired": "La confirmation du mot de passe est requise",
+        "nameMin": "Le nom complet doit contenir au moins 2 caractères",
+        "usernameMin": "Le nom d'utilisateur doit contenir au moins 3 caractères",
+        "emailInvalid": "Email invalide",
+        "passwordMin": "Le mot de passe doit contenir au moins 6 caractères",
+        "passwordMatch": "Les mots de passe ne correspondent pas"
+      }
+    },
+    "logout": {
+      "title": "Déconnexion",
+      "confirm": "Êtes-vous sûr de vouloir vous déconnecter?",
+      "submit": "Se déconnecter",
+      "cancel": "Annuler",
+      "loading": "Déconnexion en cours...",
+      "success": "Déconnexion réussie"
+    },
+    "user": {
+      "profile": "Profil",
+      "welcome": "Bienvenue, {{name}}!",
+      "loginTime": "Connecté à {{time}}",
+      "lastCheck": "Dernière vérification: {{time}}"
+    },
+    "connection": {
+      "testing": "Test de connexion...",
+      "success": "Connexion réussie",
+      "failed": "Échec de la connexion",
+      "retry": "Réessayer",
+      "serverUrl": "URL du serveur",
+      "testConnection": "Tester la connexion"
+    },
+    "status": {
+      "authenticated": "Authentifié",
+      "unauthenticated": "Non authentifié",
+      "checking": "Vérification...",
+      "expired": "Session expirée",
+      "invalid": "Session invalide"
+    }
+  },
+  "license": {
+    "title": "Licence",
+    "expiresAt": "Expire le",
+    "lastChecked": "Dernière vérification",
+    "usage": "Utilisation",
+    "limits": "Limites",
+    "accountsUsed": "Comptes utilisés",
+    "roomsUsed": "Salles utilisées",
+    "maxAccounts": "Comptes maximum",
+    "maxRooms": "Salles maximum",
+    "validUntil": "Valide jusqu'au",
+    "daysRemaining": "{{days}} jours restants",
+    "hoursRemaining": "{{hours}} heures restantes",
+    "expired": "Expiré",
+    "active": "Actif",
+    "inactive": "Inactif",
+    "trial": "Essai",
+    "premium": "Premium",
+    "basic": "Basique",
+    "unlimited": "Illimité",
+    "lastUpdate": "Dernière mise à jour",
+    "autoRefresh": "Actualisation automatique",
+    "refreshNow": "Actualiser maintenant",
+    "refreshing": "Actualisation...",
+    "info": {
+      "title": "Informations de licence",
+      "type": "Type de licence",
+      "name": "Nom du package",
+      "status": "Statut",
+      "expiresAt": "Expire le",
+      "startDate": "Date de début",
+      "description": "Description",
+      "price": "Prix",
+      "duration": "Durée",
+      "daysRemaining": "{{days}} jours restants"
+    },
+    "status": {
+      "active": "Actif",
+      "inactive": "Inactif",
+      "expired": "Expiré",
+      "suspended": "Suspendu",
+      "trial": "Essai"
+    },
+    "messages": {
+      "noLicense": "Aucune licence valide",
+      "expired": "Licence expirée",
+      "accountLimitExceeded": "Limite de comptes dépassée",
+      "roomLimitExceeded": "Limite de salles dépassée",
+      "refreshing": "Actualisation de la licence...",
+      "refreshed": "Licence actualisée",
+      "refreshFailed": "Échec de l'actualisation de la licence",
+      "accountLimit": "Comptes : {{current}}/{{max}}",
+      "roomLimit": "Salles : {{current}}/{{max}}",
+      "refreshSuccess": "Licence actualisée avec succès",
+      "refreshError": "Erreur d'actualisation de la licence"
+    },
+    "actions": {
+      "refresh": "Actualiser",
+      "upgrade": "Mettre à niveau",
+      "renew": "Renouveler",
+      "contact": "Contacter le support"
+    },
+    "errors": {
+      "cannotImportAccounts": "Impossible d'importer les comptes - limite de licence dépassée",
+      "cannotStartRoom": "Impossible de démarrer la salle - limite de licence dépassée",
+      "licenseRequired": "Une licence valide est requise pour utiliser cette fonctionnalité",
+      "expired": "Licence expirée",
+      "invalid": "Licence invalide",
+      "limitReached": "Limite de licence atteinte",
+      "refreshFailed": "Échec de l'actualisation de la licence"
+    },
+    "warnings": {
+      "noValidLicense": "Aucune licence valide",
+      "accountFeaturesDisabled": "Les fonctionnalités de gestion des comptes ont été désactivées. Veuillez vérifier votre licence.",
+      "roomFeaturesDisabled": "Les fonctionnalités de gestion des salles ont été désactivées. Veuillez vérifier votre licence.",
+      "taskFeaturesDisabled": "Les fonctionnalités de gestion des tâches ont été désactivées. Veuillez vérifier votre licence.",
+      "taskManagementUnavailable": "La gestion des tâches n'est pas disponible - licence active requise"
+    }
+  },
+  "home": {
+    "title": "Accueil",
+    "pageTitle": "Accueil - {{appTitle}}",
+    "welcome": "Bienvenue sur {{appTitle}}",
+    "today": "Aujourd'hui",
+    "quickActions": "Actions rapides",
+    "stats": {
+      "activeViewers": "Spectateurs actifs",
+      "totalViews": "Vues totales",
+      "watchingRooms": "Salles en cours"
+    },
+    "actions": {
+      "manageAccounts": "Gérer les comptes",
+      "manageAccountsDesc": "Ajouter, supprimer, modifier les comptes TikTok",
+      "manageProxies": "Gérer les proxies",
+      "manageProxiesDesc": "Ajouter et supprimer des proxies pour les spectateurs",
+      "manageRooms": "Gérer les salles live",
+      "manageRoomsDesc": "Voir et gérer les salles en direct surveillées"
+    },
+    "activity": {
+      "recentActivity": "Activité récente",
+      "addedAccount": "Nouveau compte ajouté",
+      "startedViewer": "Spectateur démarré",
+      "importedProxy": "Proxy importé",
+      "stoppedViewer": "Spectateur arrêté",
+      "minutesAgo": "il y a {{count}} minutes",
+      "roomWatching": "Surveillance de la salle @{{roomId}}",
+      "roomStopped": "Arrêt de la surveillance de @{{roomId}}",
+      "roomCompleted": "Surveillance terminée de @{{roomId}}",
+      "roomUpdated": "Salle @{{roomId}} mise à jour",
+      "noRecentActivity": "Aucune activité récente"
+    }
+  },
+  "dashboard": {
+    "title": "Tableau de bord",
+    "welcome": "Bienvenue sur {{appTitle}}",
+    "today": "Aujourd'hui",
+    "stats": {
+      "totalAccounts": "Total des comptes",
+      "totalProxies": "Total des proxies",
+      "activeViewers": "Spectateurs actifs",
+      "totalViews": "Vues totales"
+    },
+    "quickActions": {
+      "title": "Actions rapides",
+      "manageAccounts": {
+        "title": "Gérer les comptes",
+        "description": "Ajouter, supprimer, modifier les comptes TikTok"
+      },
+      "manageProxies": {
+        "title": "Gérer les proxies",
+        "description": "Ajouter et supprimer des proxies pour les spectateurs"
+      },
+      "startViewer": {
+        "title": "Démarrer le spectateur",
+        "description": "Démarrer le spectateur avec les paramètres actuels"
+      }
+    },
+    "recentActivity": {
+      "title": "Activité récente",
+      "addedAccount": "Nouveau compte ajouté",
+      "startedViewer": "Spectateur démarré",
+      "importedProxies": "Liste de proxies importée",
+      "stoppedViewer": "Spectateur arrêté",
+      "minutesAgo": "il y a {{count}} minutes"
+    },
+    "tips": {
+      "title": "Conseils d'utilisation",
+      "items": [
+        "Utilisez des proxies pour éviter les blocages",
+        "Ne lancez pas trop de spectateurs à la fois",
+        "Mettez à jour régulièrement votre liste de proxies",
+        "Vérifiez régulièrement l'état des comptes"
+      ]
+    },
+    "status": {
+      "success": "Succès",
+      "info": "Information",
+      "warning": "Avertissement"
+    }
+  },
+  "settings": {
+    "title": "Paramètres",
+    "description": "Personnaliser les paramètres de TikTok Live Viewer",
+    "resetToDefault": "Réinitialiser aux valeurs par défaut",
+    "app": {
+      "title": "Informations sur l'application",
+      "titleDescription": "Nom d'affichage de l'application, laissez vide pour utiliser la valeur par défaut selon la langue",
+      "nameDescription": "Nom court de l'application, laissez vide pour utiliser la valeur par défaut selon la langue",
+      "subtitleDescription": "Description courte de l'application, laissez vide pour utiliser la valeur par défaut selon la langue"
+    },
+    "language": {
+      "title": "Langue",
+      "description": "Choisir la langue d'affichage de l'application",
+      "vietnamese": "Vietnamien",
+      "english": "Anglais",
+      "chinese": "Chinois",
+      "japanese": "Japonais",
+      "korean": "Coréen",
+      "thai": "Thaï",
+      "french": "Français"
+    },
+    "theme": {
+      "title": "Thème",
+      "description": "Choisir le mode d'affichage clair ou sombre",
+      "light": "Clair",
+      "dark": "Sombre",
+      "system": "Selon les paramètres système",
+      "lightMode": "Mode clair",
+      "darkMode": "Mode sombre"
+    },
+    "notifications": {
+      "title": "Notifications",
+      "description": "Configurer les paramètres de notification et de son",
+      "enable": {
+        "title": "Activer les notifications",
+        "description": "Afficher les notifications pour les activités"
+      },
+      "sound": {
+        "title": "Son de notification",
+        "description": "Jouer un son lors de l'apparition des notifications"
+      },
+      "desktop": "Notifications de bureau",
+      "desktopDescription": "Afficher les notifications sur le bureau",
+      "soundDescription": "Jouer un son lors de l'apparition des notifications",
+      "test": "Notification de test",
+      "testDescription": "Envoyer une notification de test pour vérifier la fonctionnalité",
+      "sendTest": "Envoyer une notification de test",
+      "testSent": "Notification de test envoyée",
+      "testFailed": "Impossible d'envoyer la notification de test",
+      "roomStopped": "Notification d'arrêt de salle",
+      "roomStoppedDescription": "Afficher une notification lorsqu'une salle arrête sa diffusion",
+      "newRoom": "Notification de nouvelle salle",
+      "newRoomDescription": "Afficher une notification lors de l'ajout d'une nouvelle salle",
+      "error": {
+        "title": "Une erreur est survenue",
+        "defaultMessage": "Une erreur s'est produite dans l'application."
+      }
+    },
+    "security": {
+      "title": "Sécurité",
+      "description": "Paramètres de sécurité et de session",
+      "twoFactor": {
+        "title": "Authentification à deux facteurs",
+        "description": "Utiliser l'authentification à deux facteurs pour plus de sécurité"
+      },
+      "sessionTimeout": {
+        "title": "Délai d'inactivité",
+        "description": "Temps avant déconnexion automatique en cas d'inactivité",
+        "minutes": "minutes"
+      }
+    },
+    "system": {
+      "title": "Système",
+      "description": "Configurer les paramètres système et les mises à jour automatiques",
+      "autoUpdate": {
+        "title": "Mise à jour automatique",
+        "description": "Mettre à jour automatiquement lorsqu'une nouvelle version est disponible"
+      },
+      "maxRoomsPerAccount": {
+        "title": "Nombre maximum de salles par compte",
+        "description": "Nombre maximum de salles en direct qu'un compte peut regarder simultanément"
+      },
+      "accountCooldown": {
+        "title": "Temps de récupération du compte",
+        "description": "Temps minimum avant qu'un compte puisse être réutilisé",
+        "disabled": "Désactivé",
+        "seconds": "secondes",
+        "minute": "minute",
+        "minutes": "minutes"
+      }
+    },
+    "proxy": {
+      "title": "Paramètres de proxy",
+      "description": "Gérer les paramètres de proxy et les emplacements par proxy",
+      "maxAccountsPerProxy": {
+        "title": "Nombre maximum de comptes par proxy",
+        "description": "Limiter le nombre de comptes attribués au même proxy"
+      }
+    },
+    "about": {
+      "title": "À propos",
+      "version": "Version",
+      "license": "Licence",
+      "licenseText": "Copyright © 2024 TTL TikTok Live Viewer. Tous droits réservés.",
+      "teamTitle": "Équipe de développement",
+      "team": "Informations sur l'équipe",
+      "teamMembers": "Développé par l'équipe TTL Tech spécialisée dans les solutions de développement web et d'applications haute performance. Notre équipe est composée d'experts avec plus de 5 ans d'expérience dans le domaine informatique."
+    }
+  },
+  "accounts": {
+    "title": "Comptes",
+    "add": "Ajouter un compte",
+    "importText": "Importer depuis le texte",
+    "importFile": "Importer depuis un fichier",
+    "manageInFolder": "Gérer les comptes TikTok dans le dossier {{folder}}",
+    "unknownFolder": "Inconnu",
+    "resetConfirm": "Êtes-vous sûr de vouloir réinitialiser tous les dossiers ? Tous les dossiers seront supprimés et les comptes seront déplacés vers le dossier par défaut",
+    "resetSuccess": "Réinitialisation des dossiers réussie !",
+    "resetError": "Erreur lors de la réinitialisation des dossiers",
+    "addSuccess": "Compte ajouté avec succès !",
+    "addError": "Erreur lors de l'ajout du compte",
+    "deleteConfirm": "Êtes-vous sûr de vouloir supprimer ce compte ?",
+    "deleteSuccess": "Compte supprimé avec succès !",
+    "deleteError": "Erreur lors de la suppression du compte",
+    "importSuccess": "Importation réussie de {{imported}} comptes !",
+    "importError": "Erreur lors de l'importation des comptes",
+    "importFileSuccess": "Importation réussie de {{imported}} comptes depuis le fichier !",
+    "importFileError": "Erreur lors de l'importation depuis le fichier",
+    "stats": {
+      "totalAccounts": "Total des comptes",
+      "activeAccounts": "Actifs",
+      "problemAccounts": "Problématiques",
+      "filteredAccounts": "Comptes filtrés"
+    },
+    "status": {
+      "403": "Erreur 403",
+      "active": "Actif",
+      "inactive": "Inactif",
+      "suspended": "Suspendu",
+      "error": "Erreur",
+      "connecting": "En connexion",
+      "403fetch": "Erreur 403 fetch",
+      "die": "Compte mort",
+      "diecookie": "Cookie mort",
+      "cookiedie": "Cookie expiré",
+      "unknown": "Inconnu"
+    },
+    "table": {
+      "title": "Liste des comptes",
+      "username": "Compte",
+      "status": "Statut",
+      "proxy": "Proxy",
+      "noProxy": "Aucun proxy",
+      "proxyId": "ID du proxy : {{proxyId}}",
+      "currentRooms": "Salles actuelles",
+      "actions": "Actions"
+    },
+    "empty": {
+      "title": "Aucun compte",
+      "description": "Commencez par ajouter votre premier compte TikTok",
+      "addFirst": "Ajouter le premier compte"
+    },
+    "filters": {
+      "searchPlaceholder": "Rechercher un compte...",
+      "advanced": "Filtres avancés",
+      "reset": "Réinitialiser les filtres",
+      "folder": {
+        "all": "Tous les dossiers"
+      },
+      "status": {
+        "403": "403 - Erreur 403",
+        "all": "Tous les statuts",
+        "active": "Actif - Fonctionnel",
+        "inactive": "Inactif - Non fonctionnel",
+        "suspended": "Suspendu - Bloqué",
+        "error": "Erreur - État d'erreur",
+        "connecting": "Connexion - État de connexion",
+        "403fetch": "403fetch - Erreur 403 fetch",
+        "die": "Mort - Compte mort",
+        "diecookie": "Cookie mort - Cookie mort",
+        "cookiedie": "Cookie expiré",
+        "enter403": "Erreur d'accès 403",
+        "fetch403": "Erreur de récupération 403"
+      },
+      "sort": {
+        "activeRooms": "Nombre de salles actives",
+        "createdAt": "Date de création",
+        "updatedAt": "Date de mise à jour",
+        "lastUsed": "Dernière utilisation",
+        "username": "Nom d'utilisateur"
+      },
+      "proxy": {
+        "title": "Proxy spécifique",
+        "all": "Tous les proxies",
+        "none": "Aucun proxy"
+      },
+      "proxyFolder": {
+        "title": "Dossier de proxy",
+        "all": "Tous les dossiers de proxy"
+      },
+      "noProxy": "Comptes sans proxy",
+      "activeRooms": {
+        "title": "Nombre de salles actives"
+      },
+      "selectedAccounts": {
+        "title": "Sélectionner les comptes par position",
+        "placeholder": "Ex: 1-10, 15, 20-25 ou laissez vide pour tout sélectionner",
+        "description": "Entrez des numéros ou des plages séparés par des virgules, ex: 1-5, 10, 15-20"
+      }
+    },
+    "bulkActionsButton": "Actions groupées ({{count}})",
+    "bulkActions": {
+      "title": "Actions groupées",
+      "selectedCount": "{{count}} comptes sélectionnés",
+      "setProxy": {
+        "title": "Définir le proxy",
+        "description": "Définir le proxy pour les comptes sélectionnés"
+      },
+      "removeProxy": {
+        "title": "Supprimer le proxy",
+        "description": "Supprimer le proxy des comptes"
+      },
+      "setStatus": {
+        "title": "Définir le statut",
+        "active": "Actif",
+        "inactive": "Inactif"
+      },
+      "moveToFolder": {
+        "title": "Déplacer vers le dossier",
+        "selectFolder": "Sélectionner un dossier..."
+      },
+      "checkActivity": {
+        "title": "Vérifier l'activité",
+        "description": "Mettre à jour le statut des comptes"
+      },
+      "delete": {
+        "title": "Supprimer les comptes",
+        "description": "Supprimer définitivement les comptes sélectionnés",
+        "confirm": "Êtes-vous sûr de vouloir supprimer les {{count}} comptes sélectionnés ?"
+      }
+    },
+    "proxy": {
+      "setSuccess": "Attribution du proxy réussie",
+      "setError": "Erreur lors de l'attribution du proxy",
+      "deleteSuccess": "Suppression du proxy réussie"
+    },
+    "errors": {
+      "selectAtLeastOne": "Veuillez sélectionner au moins un compte",
+      "setProxyGeneral": "Erreur lors de la définition du proxy : {{error}}",
+      "resetGeneral": "Erreur lors de la réinitialisation des dossiers : {{error}}",
+      "importTextGeneral": "Erreur lors de l'importation des comptes : {{error}}",
+      "importFileGeneral": "Erreur lors de l'importation depuis le fichier : {{error}}"
+    },
+    "modal": {
+      "importFile": {
+        "title": "Importer des comptes depuis un fichier",
+        "selectFolder": "Sélectionner un dossier",
+        "selectFile": "Sélectionner un fichier",
+        "supportedFormats": "Formats supportés : .txt et .csv au format : username:password"
+      },
+      "setProxy": {
+        "title": "Définir le proxy pour {{count}} comptes",
+        "totalProxies": "Total des proxies",
+        "availableProxies": "Disponibles",
+        "minProxiesNeeded": "Minimum requis",
+        "selectedProxies": "Sélectionnés",
+        "proxies": "Proxies",
+        "proxyFolder": "Dossier de proxy",
+        "accountsPerProxy": "Comptes par proxy (max 10)",
+        "accountsPerProxyNote": "Note : Ce paramètre est configuré dans Paramètres > Paramètres de proxy et s'applique à toutes les nouvelles attributions de proxy.",
+        "maxAccountsPerProxy": "Nombre maximum de comptes par proxy",
+        "configuredInSettings": "Configuré dans les paramètres",
+        "selectProxies": "Sélectionner les proxies (min {{selected}}/{{needed}})",
+        "noProxiesInFolder": "Aucun proxy dans ce dossier",
+        "allProxiesFull": "Tous les proxies de ce dossier sont pleins ou hors ligne",
+        "selectOtherFolder": "Veuillez sélectionner un autre dossier ou ajouter de nouveaux proxies",
+        "availableSlots": "{{slots}} emplacements disponibles",
+        "cancel": "Annuler",
+        "applying": "Application du proxy...",
+        "apply": "Appliquer le proxy",
+        "validation": {
+          "noAvailableProxies": "Aucun proxy disponible dans ce dossier",
+          "selectAtLeastOne": "Veuillez sélectionner au moins 1 proxy",
+          "needMoreProxies": "{{count}} proxies supplémentaires nécessaires",
+          "notEnoughSlots": "Pas assez d'emplacements ! {{needed}} nécessaires mais seulement {{available}} disponibles",
+          "enoughProxies": "Proxies suffisants sélectionnés ! {{slots}} emplacements pour {{accounts}} comptes"
+        }
+      },
+      "addAccount": {
+        "title": "Ajouter un nouveau compte",
+        "username": "Nom d'utilisateur",
+        "usernamePlaceholder": "Entrez le nom d'utilisateur",
+        "password": "Mot de passe",
+        "passwordPlaceholder": "Entrez le mot de passe",
+        "folder": "Dossier",
+        "cancel": "Annuler",
+        "adding": "Ajout en cours...",
+        "add": "Ajouter le compte"
+      },
+      "addFolder": {
+        "title": "Créer un nouveau dossier",
+        "name": "Nom du dossier",
+        "namePlaceholder": "Entrez le nom du dossier",
+        "description": "Description",
+        "descriptionPlaceholder": "Entrez une description du dossier (optionnel)",
+        "color": "Couleur",
+        "cancel": "Annuler",
+        "adding": "Création en cours...",
+        "add": "Créer le dossier"
+      },
+      "importText": {
+        "title": "Importer des comptes depuis le texte",
+        "folder": "Sélectionner un dossier",
+        "text": "Données des comptes",
+        "textPlaceholder": "username1|password1|email1|emailpass1|cookie1\nusername2|password2|email2|emailpass2|cookie2\n...",
+        "formatDescription": "Format : username|password|email|emailpass|cookie (un compte par ligne)",
+        "cancel": "Annuler",
+        "importing": "Importation en cours...",
+        "import": "Importer les comptes",
+        "validation": {
+          "emptyData": "Veuillez entrer les données des comptes"
+        },
+        "note1": "Le nom d'utilisateur et le mot de passe sont obligatoires",
+        "note2": "L'email, le mot de passe de l'email et le cookie sont optionnels",
+        "note3": "Utilisez | pour séparer les champs",
+        "note4": "Un compte par ligne"
+      },
+      "folders": {
+        "title": "Dossiers",
+        "resetToDefault": "Réinitialiser au dossier par défaut",
+        "accountCount": "Comptes",
+        "addNew": "Ajouter un nouveau dossier"
+      }
+    },
+    "folders": {
+      "title": "Dossiers",
+      "resetToDefault": "Réinitialiser au dossier par défaut",
+      "accountCount": "Comptes",
+      "addNew": "Ajouter un nouveau dossier"
+    }
+  },
+  "proxies": {
+    "title": "Proxies",
+    "description": "Gérer les serveurs proxy",
+    "defaultFolder": "Par défaut",
+    "folders": "Dossiers",
+    "resetFolders": "Réinitialiser les dossiers",
+    "resetConfirm": "Êtes-vous sûr de vouloir réinitialiser les dossiers ? Cette action créera 3 nouveaux dossiers de proxy par défaut",
+    "resetSuccess": "Réinitialisation des dossiers réussie !",
+    "resetError": "Erreur lors de la réinitialisation",
+    "filter": "Filtre",
+    "bulkActions": "Actions ({{count}})",
+    "export": "Exporter",
+    "import": "Importer",
+    "add": "Ajouter un proxy",
+    "advancedFilter": "Filtres avancés",
+    "loading": "Chargement de la liste des proxies...",
+    "filters": {
+      "folder": "Dossier",
+      "allFolders": "Tous les dossiers",
+      "status": "Statut",
+      "allStatuses": "Tous les statuts",
+      "active": "Proxies actifs",
+      "inactive": "Proxies inactifs",
+      "suspended": "Proxies suspendus",
+      "enter403": "Erreur d'accès 403",
+      "fetch403": "Erreur de récupération 403",
+      "minAccounts": "Comptes assignés ≥",
+      "maxAccounts": "Comptes assignés ≤",
+      "searchTerm": "Rechercher un proxy",
+      "searchTermPlaceholder": "Entrez l'IP, le port ou le nom d'utilisateur...",
+      "sortBy": "Trier par",
+      "assignedAccountsCount": "Nombre de comptes assignés",
+      "createdAt": "Date de création",
+      "updatedAt": "Date de mise à jour",
+      "lastUsed": "Dernière utilisation",
+      "sortAsc": "Croissant",
+      "sortDesc": "Décroissant",
+      "found": "{{count}} proxies trouvés",
+      "clearFilter": "Effacer les filtres",
+      "apply": "Appliquer"
+    },
+    "table": {
+      "title": "Liste des proxies",
+      "selectAll": "Tout sélectionner",
+      "proxy": "Proxy",
+      "status": "Statut",
+      "assignedAccounts": "Comptes assignés",
+      "createdAt": "Date de création",
+      "actions": "Actions"
+    },
+    "empty": {
+      "title": "Aucun proxy",
+      "description": "Commencez par ajouter votre premier proxy",
+      "addFirst": "Ajouter le premier proxy"
+    },
+    "pagination": "Page {{page}} / {{totalPages}} ({{totalCount}} proxies)",
+    "addModal": {
+      "title": "Ajouter un nouveau proxy",
+      "ip": "IP",
+      "ipPlaceholder": "Entrez l'adresse IP",
+      "port": "Port",
+      "portPlaceholder": "Entrez le port",
+      "username": "Nom d'utilisateur",
+      "usernamePlaceholder": "Entrez le nom d'utilisateur (optionnel)",
+      "password": "Mot de passe",
+      "passwordPlaceholder": "Entrez le mot de passe (optionnel)",
+      "type": "Type de proxy",
+      "http": "HTTP",
+      "socks5": "SOCKS5",
+      "folder": "Dossier",
+      "noFolder": "Aucun",
+      "cancel": "Annuler",
+      "adding": "Ajout en cours...",
+      "add": "Ajouter le proxy",
+      "validation": {
+        "required": "Veuillez remplir tous les champs requis"
+      },
+      "error": "Erreur lors de l'ajout du proxy",
+      "generalError": "Erreur lors de l'ajout du proxy"
+    },
+    "addFolderModal": {
+      "title": "Ajouter un nouveau dossier",
+      "name": "Nom du dossier",
+      "namePlaceholder": "Entrez le nom du dossier",
+      "description": "Description",
+      "descriptionPlaceholder": "Entrez une description (optionnel)",
+      "color": "Couleur",
+      "cancel": "Annuler",
+      "adding": "Ajout en cours...",
+      "add": "Ajouter le dossier"
+    },
+    "importModal": {
+      "title": "Importer des proxies depuis un fichier ou du texte",
+      "fromFile": "Importer depuis un fichier",
+      "chooseFile": "Choisir un fichier",
+      "orText": "Ou entrer du texte",
+      "textPlaceholder": "Entrez la liste des proxies, un par ligne",
+      "folder": "Dossier de proxy",
+      "defaultFolder": "Dossier par défaut",
+      "success": "Importation réussie !",
+      "error": "Erreur lors de l'importation",
+      "imported": "{{count}} proxies importés",
+      "cancel": "Fermer",
+      "importing": "Importation en cours...",
+      "import": "Importer les proxies",
+      "fileLoaded": "Fichier \"{{fileName}}\" chargé avec succès. Cliquez sur \"Importer les proxies\" pour continuer",
+      "fileReadError": "Impossible de lire le fichier. Veuillez vérifier et réessayer"
+    },
+    "exportModal": {
+      "title": "Exporter la liste des proxies",
+      "format": "Format d'exportation",
+      "defaultFormat": "ip:port:username:password (par défaut)",
+      "ipPort": "ip:port",
+      "ipPortUsername": "ip:port:username",
+      "usernamePasswordIpPort": "username:password@ip:port",
+      "exportSelected": "{{count}} proxies sélectionnés seront exportés",
+      "exportAll": "Tous les {{count}} proxies actuels seront exportés",
+      "cancel": "Annuler",
+      "export": "Exporter les proxies"
+    },
+    "bulkActionsModal": {
+      "title": "Actions groupées ({{count}} proxies)",
+      "testProxies": "Tester les proxies",
+      "testTimeout": "Délai de test",
+      "defaultTimeout": "5 secondes (par défaut)",
+      "tenSeconds": "10 secondes",
+      "fifteenSeconds": "15 secondes",
+      "thirtySeconds": "30 secondes",
+      "testSelected": "Tester les proxies sélectionnés",
+      "moveToFolder": "Déplacer vers le dossier",
+      "chooseFolder": "Sélectionner le dossier de destination",
+      "moveSelected": "Déplacer les proxies",
+      "exportSelected": "Exporter les proxies",
+      "defaultFormat": "ip:port:username:password",
+      "ipPort": "ip:port",
+      "ipPortUsername": "ip:port:username",
+      "usernamePasswordIpPort": "username:password@ip:port",
+      "deleteSelected": "Supprimer les proxies",
+      "deleteWarning": "Cette action est irréversible !",
+      "confirmDelete": "Êtes-vous sûr de vouloir supprimer les {{count}} proxies sélectionnés ?",
+      "delete": "Supprimer les proxies",
+      "cancel": "Fermer"
+    },
+    "errors": {
+      "resetGeneral": "Erreur lors de la réinitialisation des dossiers"
+    },
+    "testing": "Test en cours",
+    "notTested": "Non testé",
+    "deleteConfirm": "Êtes-vous sûr de vouloir supprimer ce proxy ?",
+    "deleteError": "Erreur lors de la suppression du proxy",
+    "deleteGeneralError": "Erreur lors de la suppression du proxy"
+  },
+  "rooms": {
+    "title": "Gérer les salles",
+    "description": "Ajouter, arrêter et gérer les salles TikTok",
+    "add": "Ajouter une salle",
+    "quickManagement": "Gestion rapide",
+    "pagination": {
+      "showing": "Affichage",
+      "of": "sur",
+      "items": "éléments",
+      "itemsPerPage": "Éléments par page",
+      "previous": "Précédent",
+      "next": "Suivant",
+      "page": "Page",
+      "goToPage": "Aller à la page",
+      "firstPage": "Première page",
+      "lastPage": "Dernière page"
+    },
+    "stats": {
+      "totalRooms": "Total des salles",
+      "total": "Total des salles",
+      "watching": "En cours",
+      "stopped": "Arrêtée",
+      "completed": "Terminée",
+      "totalViewers": "Total des spectateurs",
+      "avgViewers": "Moyenne des spectateurs"
+    },
+    "filters": {
+      "title": "Filtres",
+      "status": "Statut",
+      "all": "Tout",
+      "watching": "En cours",
+      "stopped": "Arrêtée",
+      "completed": "Terminée",
+      "minViewers": "Spectateurs minimum",
+      "maxViewers": "Spectateurs maximum",
+      "minDuration": "Durée minimum",
+      "maxDuration": "Durée maximum",
+      "search": "Rechercher",
+      "searchPlaceholder": "Rechercher URL de salle...",
+      "dateFrom": "Date de début",
+      "dateTo": "Date de fin"
+    },
+    "table": {
+      "title": "Liste des salles ({{count}})",
+      "roomUrl": "Salle Live",
+      "status": "Statut",
+      "viewers": "Spectateurs",
+      "toolViewers": "Spectateurs outil",
+      "realViewers": "Spectateurs TikTok",
+      "lastCheck": "Dernière vérification",
+      "duration": "Durée",
+      "notes": "Notes",
+      "actions": "Actions",
+      "startedAt": "Commencé:",
+      "notStarted": "Pas commencé",
+      "minutes": "minutes",
+      "uid": "UID :"
+    },
+    "status": {
+      "watching": "En cours",
+      "stopped": "Arrêtée",
+      "completed": "Terminée",
+      "unknown": "Inconnu",
+      "notChecked": "Non vérifié",
+      "justNow": "À l'instant",
+      "minutesAgo": "minutes ago",
+      "hoursAgo": "heures ago",
+      "daysAgo": "jours ago"
+    },
+    "actions": {
+      "start": "Démarrer",
+      "stop": "Arrêter",
+      "duplicate": "Dupliquer",
+      "delete": "Supprimer",
+      "viewChart": "Voir le graphique",
+      "clearAll": "Tout effacer",
+      "addNew": "Ajouter une nouvelle salle",
+      "filter": "Filtrer",
+      "bulkActions": "Actions groupées",
+      "export": "Exporter"
+    },
+    "empty": {
+      "title": "Aucune salle",
+      "description": "Commencez par ajouter votre première salle"
+    },
+    "debug": {
+      "totalAccounts": "Total des comptes",
+      "folders": "Dossiers",
+      "filteredAccounts": "Comptes filtrés",
+      "roomUrl": "URL de la salle",
+      "extractedRoomId": "ID de salle extrait",
+      "accountsWithActiveRooms": "Comptes avec des salles actives",
+      "accountCooldown": "Délai de refroidissement du compte",
+      "accountsInCooldown": "Comptes en refroidissement",
+      "remainingTime": "Temps restant"
+    },
+    "modal": {
+      "addRoom": {
+        "title": "Ajouter une nouvelle salle",
+        "roomUrl": "ID/URL de la salle",
+        "roomUrlPlaceholder": "Ex: 7508300389638194696 ou https://www.tiktok.com/@username/live",
+        "roomUrlDescription": "Entrez l'ID ou l'URL complète de la salle TikTok",
+        "targetViewers": "Nombre de comptes",
+        "availableAccounts": "Disponibles : {{count}} comptes",
+        "duration": "Durée de visionnage (minutes)",
+        "notes": "Notes (optionnel)",
+        "notesPlaceholder": "Notes sur cette salle...",
+        "selectAccounts": "Sélectionner les comptes",
+        "accountFilters": "Filtrer les comptes",
+        "folder": "Dossier",
+        "allFolders": "Tous les dossiers",
+        "accountStatus": "Statut",
+        "allStatuses": "Tous les statuts",
+        "proxy": "Proxy",
+        "allProxies": "Tous",
+        "withProxy": "Avec proxy",
+        "withoutProxy": "Sans proxy",
+        "maxCurrentRooms": "Salles actuelles maximum",
+        "quickSelection": "Sélection rapide",
+        "quickSelectionDescription": "Sélectionner automatiquement {{count}} comptes appropriés",
+        "canSelectMore": "{{count}} comptes supplémentaires peuvent être sélectionnés",
+        "accountsTable": {
+          "selectAll": "Tout sélectionner",
+          "username": "Compte",
+          "status": "Statut",
+          "proxy": "Proxy",
+          "currentRooms": "Salles actuelles",
+          "noProxy": "Aucun proxy"
+        },
+        "cancel": "Annuler",
+        "adding": "Ajout en cours...",
+        "add": "Ajouter la salle",
+        "addWithCount": "Ajouter la salle ({{count}} comptes)",
+        "selectSpecificAccounts": "Sélectionner des comptes spécifiques",
+        "quickSelectionByPosition": "Sélection rapide par position",
+        "filteredAccounts": "{{count}} comptes correspondants",
+        "selectedAccounts": "{{count}} comptes"
+      }
+    },
+    "messages": {
+      "enterRoomUrl": "Veuillez entrer l'URL de la salle",
+      "selectAtLeastOne": "Veuillez sélectionner au moins un compte",
+      "roomAdded": "Salle ajoutée avec succès",
+      "roomDeleted": "Salle supprimée",
+      "roomStopped": "Salle arrêtée",
+      "confirmDelete": "Êtes-vous sûr de vouloir supprimer cette salle ?",
+      "confirmStop": "Êtes-vous sûr de vouloir arrêter cette salle ?",
+      "confirmClearAll": "Êtes-vous sûr de vouloir effacer toutes les salles actives de tous les comptes ? Cette action est irréversible !",
+      "clearAllSuccess": "✅ Salles actives effacées pour {{count}} comptes",
+      "clearAllError": "❌ Erreur",
+      "clearAllGeneralError": "❌ Erreur lors de l'effacement des salles",
+      "addRoomError": "Erreur lors de l'ajout de la salle",
+      "addRoomGeneralError": "Erreur lors de l'ajout de la salle",
+      "stopRoomError": "Erreur lors de l'arrêt de la salle",
+      "stopRoomGeneralError": "Erreur lors de l'arrêt de la salle",
+      "deleteRoomError": "Erreur lors de la suppression de la salle",
+      "deleteRoomGeneralError": "Erreur lors de la suppression de la salle",
+      "alreadySelectedEnough": "Vous avez déjà sélectionné {{count}} comptes !",
+      "cannotSelectMore": "Impossible de sélectionner plus de comptes",
+      "noRooms": "Aucune salle",
+      "loadingRooms": "Chargement des salles...",
+      "addSuccess": "Salle ajoutée avec succès!",
+      "addError": "Erreur d'ajout de salle",
+      "deleteConfirm": "Êtes-vous sûr de vouloir supprimer cette salle?",
+      "deleteSuccess": "Salle supprimée avec succès!",
+      "deleteError": "Erreur de suppression de salle",
+      "stopConfirm": "Êtes-vous sûr de vouloir arrêter cette salle?",
+      "stopSuccess": "Salle arrêtée avec succès!",
+      "stopError": "Erreur d'arrêt de salle"
+    },
+    "errors": {
+      "roomNotFound": "Salle non trouvée",
+      "writeFailed": "Échec d'écriture",
+      "unknownError": "Erreur inconnue"
+    },
+    "viewerStats": {
+      "title": "Statistiques des spectateurs",
+      "currentCount": "Actuel: {{count}}",
+      "lastChecked": "Dernière vérification: {{time}}",
+      "history": "Historique des spectateurs",
+      "noData": "Aucune donnée",
+      "totalViews": "Total des vues",
+      "peakViewers": "Pic: {{count}}",
+      "averageViewers": "Moyenne: {{count}}"
+    },
+    "autoRefresh": {
+      "label": "Actualisation automatique",
+      "interval": "Intervalle",
+      "next": "Suivant: {{countdown}}s",
+      "refresh": "Actualiser"
+    },
+    "sort": {
+      "createdAt": "Date de création",
+      "currentViewers": "Spectateurs actuels",
+      "status": "Statut",
+      "asc": "Croissant",
+      "desc": "Décroissant"
+    },
+    "chart": {
+      "title": "Graphique de l'historique des spectateurs",
+      "loading": "Chargement des données...",
+      "loadError": "Erreur lors du chargement des données du graphique",
+      "noData": "Aucune donnée à afficher",
+      "viewersAxis": "Nombre de spectateurs",
+      "timeAxis": "Temps",
+      "viewers": "spectateurs",
+      "offline": "Hors ligne",
+      "days": {
+        "1": "1 jour",
+        "3": "3 jours",
+        "7": "7 jours",
+        "30": "30 jours"
+      },
+      "stats": {
+        "totalPoints": "Total des points de données",
+        "maxViewers": "Spectateurs maximum",
+        "avgViewers": "Moyenne",
+        "offlinePoints": "Points hors ligne"
+      }
+    }
+  },
+  "chart": {
+    "title": "Graphique de l'historique des spectateurs",
+    "loading": "Chargement des données...",
+    "loadError": "Erreur lors du chargement des données du graphique",
+    "noData": "Aucune donnée à afficher",
+    "viewersAxis": "Nombre de spectateurs",
+    "timeAxis": "Temps",
+    "viewers": "spectateurs",
+    "offline": "Hors ligne",
+    "days": {
+      "1": "1 jour",
+      "3": "3 jours",
+      "7": "7 jours",
+      "30": "30 jours"
+    },
+    "stats": {
+      "totalPoints": "Total des points de données",
+      "maxViewers": "Spectateurs maximum",
+      "avgViewers": "Moyenne",
+      "offlinePoints": "Points hors ligne"
+    }
+  },
+  "common": {
+    "cancel": "Annuler",
+    "save": "Enregistrer",
+    "delete": "Supprimer",
+    "edit": "Modifier",
+    "add": "Ajouter",
+    "close": "Fermer",
+    "confirm": "Confirmer",
+    "loading": "Chargement...",
+    "success": "Succès",
+    "error": "Erreur",
+    "warning": "Avertissement",
+    "info": "Information",
+    "reload": "Recharger",
+    "result": "Résultat",
+    "selected": "Sélectionné",
+    "selectStatus": "Sélectionner le statut",
+    "deselect": "Désélectionner",
+    "from": "De",
+    "to": "À",
+    "selectRange": "Sélectionner une plage",
+    "note": "Note",
+    "unknown": "Inconnu",
+    "hiddenEmail": "Email masqué",
+    "default": "Par défaut",
+    "defaultDescription": "Dossier par défaut",
+    "defaultAccountFolder": "Dossier par défaut pour les comptes",
+    "defaultProxyFolder": "Dossier par défaut pour les proxies",
+    "ok": "OK",
+    "selectOption": "Sélectionner une option...",
+    "pagination": {
+      "showing": "Affichage",
+      "of": "sur",
+      "items": "éléments",
+      "itemsPerPage": "Éléments par page",
+      "previous": "Précédent",
+      "next": "Suivant",
+      "page": "Page",
+      "goToPage": "Aller à la page",
+      "firstPage": "Première page",
+      "lastPage": "Dernière page"
+    }
+  },
+  "analytics": {
+    "title": "Analytique",
+    "description": "Statistiques de performance et d'activité de TikTok Live Viewer",
+    "refresh": "Actualiser",
+    "loading": "Chargement des données...",
+    "views": "Vues",
+    "likes": "J'aime",
+    "current": "Actuel",
+    "used": "Utilisé",
+    "noData": "Aucune donnée",
+    "noAccountData": "Aucune donnée de compte",
+    "noActivity": "Aucune activité récente",
+    "totalViews": "Total des vues",
+    "totalLikes": "Total des j'aime",
+    "totalComments": "Total des commentaires",
+    "activeViewers": "Spectateurs actifs",
+    "totalRuntime": "Temps total d'exécution",
+    "totalAccounts": "Total des comptes",
+    "averagePerformance": "Performance moyenne",
+    "viewsPerAccount": "Vues par compte",
+    "dailyStats": "Statistiques quotidiennes",
+    "topAccounts": "Meilleurs comptes",
+    "recentActivities": "Activités récentes",
+    "timeRange": {
+      "24h": "24 dernières heures",
+      "7days": "7 derniers jours",
+      "30days": "30 derniers jours",
+      "90days": "90 derniers jours"
+    }
+  },
+  "landing": {
+    "title": "TTL TikTok Live Viewer - Augmentez vos vues de live TikTok",
+    "appName": "TTL",
+    "subtitle": "TikTok Live Viewer",
+    "hero": {
+      "headline": "Augmentez vos vues de live",
+      "subHeadline": "TikTok professionnel",
+      "description": "Application puissante pour augmenter automatiquement et en toute sécurité vos vues de live TikTok"
+    },
+    "features": {
+      "autoViews": {
+        "title": "Vues automatiques",
+        "description": "Augmentez automatiquement les vues de vos lives avec plusieurs comptes simultanément"
+      },
+      "accountManagement": {
+        "title": "Gestion des comptes",
+        "description": "Gérez facilement plusieurs comptes TikTok et proxies"
+      },
+      "security": {
+        "title": "Sécurisé et fiable",
+        "description": "Utilisez des proxies et des techniques d'anonymisation pour protéger vos comptes"
+      }
+    },
+    "cta": {
+      "start": "Commencer",
+      "manageAccounts": "Gérer les comptes"
+    },
+    "stats": {
+      "accounts": "Comptes supportés",
+      "uptime": "24/7",
+      "safety": "Sécurisé",
+      "unlimited": "Illimité"
+    },
+    "footer": "© 2025 TTL OUTILS Développé avec des technologies avancées"
+  },
+  "navigation": {
+    "home": "Accueil",
+    "accounts": "Comptes",
+    "rooms": "Salles",
+    "analytics": "Analytique",
+    "pricing": "Packages de Services",
+    "proxies": "Proxies",
+    "settings": "Paramètres",
+    "tasks": "Planificateur de Tâches"
+  },
+  "addRoom": "Ajouter une salle",
+  "quickManage": "Gestion rapide",
+  "lightMode": "Mode clair",
+  "darkMode": "Mode sombre",
+  "language": "Langue",
+  "tasks": {
+    "title": "Planificateur de tâches",
+    "description": "Gérer les tâches automatisées",
+    "add": "Ajouter une tâche",
+    "edit": "Modifier la tâche",
+    "delete": "Supprimer la tâche",
+    "name": "Nom de la tâche",
+    "handler": "Fonction de traitement",
+    "interval": "Intervalle de répétition",
+    "status": "Statut",
+    "lastRun": "Dernière exécution",
+    "nextRun": "Prochaine exécution",
+    "runCount": "Nombre d'exécutions",
+    "errorCount": "Nombre d'erreurs",
+    "enabled": "Activé",
+    "runNow": "Exécuter maintenant",
+    "minutes": "minutes",
+    "hours": "heures",
+    "days": "jours",
+    "seconds": "secondes",
+    "statusValues": {
+      "idle": "En attente",
+      "running": "En cours",
+      "completed": "Terminé",
+      "error": "Erreur"
+    },
+    "handlers": {
+      "checkAccountHealth": "Vérifier la santé des comptes",
+      "updateProxyStatus": "Mettre à jour le statut des proxies",
+      "cleanupOldData": "Nettoyer les anciennes données",
+      "backupData": "Sauvegarder les données",
+      "backupDataWithoutHistory": "Sauvegarder les données (sans historique)",
+      "monitorRooms": "Surveiller les salles en direct",
+      "updateAccountsInfo": "Mettre à jour les informations des comptes",
+      "refreshLicense": "Actualiser les informations de licence",
+      "autoStopExpiredRooms": "Arrêter automatiquement les salles expirées"
+    },
+    "messages": {
+      "addSuccess": "Tâche ajoutée avec succès",
+      "updateSuccess": "Tâche mise à jour avec succès",
+      "deleteSuccess": "Tâche supprimée avec succès",
+      "runSuccess": "Tâche exécutée avec succès",
+      "enableSuccess": "Tâche activée avec succès",
+      "disableSuccess": "Tâche désactivée avec succès",
+      "deleteConfirm": "Êtes-vous sûr de vouloir supprimer cette tâche ?",
+      "noTasks": "Aucune tâche pour le moment",
+      "noTasksDescription": "Commencez par créer votre première tâche automatisée",
+      "addFirstTask": "Ajouter la première tâche"
+    }
+  },
+  "notifications": {
+    "newRoom": {
+      "title": "Nouvelle salle détectée",
+      "body": "La salle \"{roomIdentifier}\" vient de commencer la diffusion."
+    },
+    "roomStopped": {
+      "title": "La salle s'est arrêtée",
+      "body": "La salle \"{roomIdentifier}\" a arrêté la diffusion."
+    },
+    "error": {
+      "title": "Une erreur est survenue",
+      "defaultMessage": "Une erreur s'est produite dans l'application."
+    }
+  },
+  "pricing": {
+    "title": "Packages de Services",
+    "pageTitle": "Packages de Services - {{appTitle}}",
+    "subtitle": "Analyse des coûts et profits des packages de services TikTok Live",
+    "basicCosts": {
+      "title": "Coûts de Base",
+      "accountCost": "Coût du compte",
+      "accountCostUnit": "compte",
+      "proxyCost": "Coût du proxy",
+      "proxyCostUnit": "mois (5 comptes/proxy)",
+      "revenue": "Revenus",
+      "revenueUnit": "compte/minute",
+      "dailyMinutes": "Minutes par compte/jour",
+      "dailyMinutesUnit": "minutes",
+      "calculate": "Calculer",
+      "reset": "Réinitialiser par défaut"
+    },
+    "packageTable": {
+      "title": "Liste des Packages de Services",
+      "package": "Package",
+      "accounts": "Comptes",
+      "rooms": "Salles",
+      "duration": "Durée",
+      "durationDays": "{{days}} jours",
+      "licenseCost": "Coût de Licence",
+      "loading": "Chargement des données...",
+      "error": "Erreur de chargement des données des packages de services",
+      "retry": "Réessayer"
+    },
+    "revenueAnalysis": {
+      "title": "Analyse des Revenus",
+      "package": "Package",
+      "dailyRevenue": "Revenus Quotidiens",
+      "monthlyRevenue": "Revenus Mensuels",
+      "firstMonthCost": "Coût du Premier Mois",
+      "proxyMonthlyCost": "Coût Proxy/Mois",
+      "licenseMonthlyCost": "Coût Licence/Mois",
+      "monthlyCost": "Coût Mensuel Total",
+      "monthlyProfit": "Profit Mensuel",
+      "roi": "ROI %",
+      "positive": "Rentable",
+      "negative": "Perte"
+    },
+    "breakEven": {
+      "title": "Analyse du Seuil de Rentabilité",
+      "package": "Package",
+      "minutesPerDay": "Minutes/jour requises",
+      "hoursPerDay": "Heures/jour",
+      "feasibility": "Faisabilité",
+      "veryFeasible": "Très faisable",
+      "feasible": "Faisable",
+      "challenging": "Difficile",
+      "unfeasible": "Infaisable",
+      "hoursUnit": "heures"
+    },
+    "currency": "VND",
+    "calculations": {
+      "dailyRevenueFormula": "= {{accounts}} comptes × {{minutes}} minutes × {{rate}} VND/minute",
+      "monthlyRevenueFormula": "= Revenus quotidiens × 30 jours",
+      "firstMonthCostFormula": "= ({{accounts}} × {{accountCost}}) + ({{proxies}} × {{proxyCost}}) + {{licenseCost}}",
+      "monthlyCostFormula": "= {{proxies}} proxies × {{proxyCost}} VND",
+      "monthlyProfitFormula": "= Revenus mensuels - Coût mensuel"
+    }
+  },
+  "menu": {
+    "app": {
+      "about": "À propos de {appName}",
+      "hide": "Masquer {appName}",
+      "hideOthers": "Masquer les autres",
+      "showAll": "Tout afficher",
+      "quit": "Quitter {appName}"
+    },
+    "file": {
+      "title": "Fichier",
+      "newRoom": "Nouvelle salle en direct...",
+      "newAccount": "Nouveau compte...",
+      "newProxy": "Nouveau proxy...",
+      "importAccountsText": "Importer des comptes depuis le texte...",
+      "importProxiesText": "Importer des proxies depuis le texte...",
+      "close": "Fermer la fenêtre"
+    },
+    "edit": {
+      "title": "Édition",
+      "undo": "Annuler",
+      "redo": "Rétablir",
+      "cut": "Couper",
+      "copy": "Copier",
+      "paste": "Coller",
+      "selectAll": "Tout sélectionner"
+    },
+    "view": {
+      "title": "Affichage",
+      "reload": "Actualiser",
+      "toggleDevTools": "Outils de développement",
+      "resetZoom": "Réinitialiser le zoom",
+      "zoomIn": "Zoom avant",
+      "zoomOut": "Zoom arrière",
+      "toggleFullscreen": "Plein écran"
+    },
+    "tools": {
+      "title": "Outils",
+      "checkAllAccounts": "Vérifier tous les comptes",
+      "checkAllProxies": "Vérifier tous les proxys",
+      "clearCache": "Vider le cache",
+      "exportData": "Exporter les données",
+      "importData": "Importer les données",
+      "backupData": "Sauvegarder les données",
+      "backupDataFull": "Sauvegarde complète",
+      "backupDataCompact": "Sauvegarde compacte (sans historique)"
+    },
+    "window": {
+      "title": "Fenêtre",
+      "minimize": "Réduire",
+      "zoom": "Zoom",
+      "front": "Tout mettre au premier plan"
+    },
+    "help": {
+      "title": "Aide",
+      "documentation": "Documentation",
+      "reportIssue": "Signaler un problème",
+      "checkForUpdates": "Vérifier les mises à jour",
+      "about": "À propos"
+    }
+  },
+  "update": {
+    "title": "Mises à jour de l'application",
+    "description": "Gérer les mises à jour automatiques et vérifier les nouvelles versions",
+    "currentVersion": "Version actuelle",
+    "lastChecked": "Dernière vérification",
+    "neverChecked": "Jamais vérifié",
+    "justNow": "À l'instant",
+    "minutesAgo": "Il y a {{minutes}} minutes",
+    "hoursAgo": "Il y a {{hours}} heures",
+    "daysAgo": "Il y a {{days}} jours",
+    "checking": "Vérification en cours...",
+    "checkNow": "Vérifier maintenant",
+    "upToDate": "À jour",
+    "upToDateDescription": "Vous utilisez la dernière version",
+    "updateAvailable": "Mise à jour disponible",
+    "newVersionAvailable": "La version {{latest}} est disponible (actuelle : {{current}})",
+    "releaseNotes": "Notes de version",
+    "available": {
+      "title": "Mise à jour disponible",
+      "message": "La version {{latestVersion}} est disponible (actuelle : {{currentVersion}})"
+    },
+    "fileSize": "Taille du fichier",
+    "publishedAt": "Publié le",
+    "showReleaseNotes": "Afficher les notes de version",
+    "hideReleaseNotes": "Masquer les notes de version",
+    "downloading": "Téléchargement en cours...",
+    "download": "Télécharger",
+    "dismiss": "Fermer",
+    "downloadInstall": "Télécharger et installer",
+    "skip": "Ignorer",
+    "autoUpdateWarning": "Mise à jour détectée automatiquement. Il est recommandé de télécharger maintenant.",
+    "settings": {
+      "title": "Paramètres de mise à jour",
+      "autoCheck": "Vérifier automatiquement les mises à jour",
+      "autoCheckDescription": "Vérifier automatiquement les nouvelles versions en arrière-plan",
+      "checkInterval": "Fréquence de vérification",
+      "intervalDescription": "Intervalle entre les vérifications de mise à jour"
+    },
+    "interval": {
+      "30minutes": "30 minutes",
+      "1hour": "1 heure",
+      "4hours": "4 heures",
+      "daily": "Quotidiennement"
+    },
+    "info": {
+      "title": "Informations de mise à jour",
+      "updateSource": "Source de mise à jour",
+      "updateType": "Type de mise à jour",
+      "fullUpdate": "Mise à jour complète",
+      "downloadLocation": "Emplacement de téléchargement",
+      "tempDirectory": "Répertoire temporaire",
+      "backupCreated": "Sauvegarde créée",
+      "yes": "Oui",
+      "githubReleases": "GitHub Releases"
+    },
+    "advanced": {
+      "title": "Options avancées",
+      "channel": "Canal de mise à jour",
+      "platform": "Plateforme",
+      "repository": "Dépôt",
+      "stable": "Stable"
+    },
+    "updateNow": "Mettre à jour maintenant",
+    "clickToUpdateNow": "Cliquez pour mettre à jour maintenant"
+  },
+  "debug": {
+    "mode": "Débogage",
+    "info": "Informations de débogage"
+  },
+  "retry": "Réessayer"
+}

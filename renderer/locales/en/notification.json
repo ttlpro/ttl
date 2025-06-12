@@ -1,0 +1,20 @@
+{
+  "notifications": {
+    "newRoom": {
+      "title": "New room detected",
+      "body": "Room \"{roomIdentifier}\" has just started streaming."
+    },
+    "roomStopped": {
+      "title": "Room has stopped",
+      "body": "Room \"{roomIdentifier}\" has stopped streaming."
+    },
+    "error": {
+      "title": "An error occurred",
+      "defaultMessage": "An error occurred in the application."
+    },
+    "test": {
+      "title": "Test Notification",
+      "body": "This is a test notification. If you can see this, notifications are working properly."
+    }
+  }
+} 

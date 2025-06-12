@@ -1,0 +1,68 @@
+---
+description: 
+globs: 
+alwaysApply: true
+---
+# Quy tắc Interactive Feedback (MCP) cho Dự Án
+
+## 1. Luôn sử dụng interactive feedback trước khi hỏi hoặc hoàn thành
+
+- Trước khi đặt câu hỏi làm rõ yêu cầu, **bắt buộc** gọi `mcp_interactive-feedback-mcp_interactive_feedback` với các tham số:
+  - `project_directory`: Đường dẫn tuyệt đối tới thư mục dự án.
+  - `summary`: Tóm tắt ngắn gọn lý do cần hỏi hoặc nội dung vừa hoàn thành.
+
+- Trước khi thông báo đã hoàn thành bất kỳ chức năng nào, **bắt buộc** gọi `mcp_interactive-feedback-mcp_interactive_feedback` để xác nhận với người dùng.
+- Trước khi hỏi `có muốn`, `cách` nào, `phương án` nào, `muốn` gì, `về` gì, hay thể hiện một sự lựa chọn có dấu `?`, **bắt buộc** gọi `mcp_interactive-feedback-mcp_interactive_feedback` để xác nhận với người dùng.
+- Khi người dùng bấm nút Skip **bắt buộc** gọi `mcp_interactive-feedback-mcp_interactive_feedback` để xem người dùng muốn gì.
+## 2. Luôn chờ phản hồi từ interactive feedback trước khi tiếp tục
+
+- **Bắt buộc phải chờ** cho tới khi nhận được phản hồi từ interactive feedback rồi mới được tiếp tục công việc, chuyển sang task mới, hoặc xác nhận hoàn thành.
+- **Tuyệt đối không** được tự ý kết thúc hay chuyển bước nếu chưa có phản hồi hoặc xác nhận rõ ràng từ người dùng/khách hàng, dù với bất kỳ lý do gì.
+
+## 3. Chỉ được coi là hoàn thành khi nhận được xác nhận rõ ràng
+
+- Chỉ đánh dấu task hoặc luồng làm việc là hoàn thành khi nhận được phản hồi rõ ràng như:
+  - “Tất cả đã xong”,
+  - “Không còn gì cần làm thêm”,
+  - “Xong hết rồi, cảm ơn bạn”,
+  - hoặc các từ tương đương xác nhận đã đủ.
+
+- Nếu feedback có nội dung bổ sung, đề xuất, hoặc yêu cầu liên quan, **phải xử lý hết trước khi kết thúc**.
+
+- **Nếu phản hồi hoàn toàn trống (empty) hoặc người dùng không trả lời:**
+  - Gửi lại một lần xác nhận cuối cùng (ví dụ: “Nếu không có phản hồi thêm, mình sẽ tạm coi là hoàn thành sau XX phút/giờ.”).
+  - Nếu sau nhắc lại vẫn không phản hồi, có thể xác nhận hoàn thành, đồng thời **log lại trường hợp này** để kiểm tra sau (theo chính sách dự án).
+
+## 4. Sau khi báo hoàn thành, luôn hỏi tiếp có cần làm gì thêm không
+
+- Sau mỗi lần báo hoàn thành, luôn kèm câu hỏi như:
+  - “Bạn có muốn bổ sung chức năng nào nữa không?”
+  - “Có yêu cầu nào liên quan cần thực hiện tiếp không?”
+  - “Còn gì cần mình hỗ trợ thêm không?”
+
+- Chỉ khi được xác nhận rõ ràng là **không còn gì cần làm thêm** thì mới được kết thúc quy trình.
+
+## 5. Trường hợp ngoại lệ
+
+- Nếu công cụ interactive feedback bị lỗi hoặc không sử dụng được, phải log lại lý do và xác nhận thủ công với người dùng/khách hàng.
+- Toàn bộ các lần gọi, phản hồi, và trường hợp ngoại lệ phải được lưu lại (log) để phục vụ kiểm tra/audit sau này.
+
+## 6. Best Practices
+
+- Tóm tắt ngắn gọn, rõ ràng nội dung đã làm hoặc cần hỏi.
+- Luôn sử dụng đường dẫn tuyệt đối cho trường `project_directory`.
+- Không hỏi/gọi MCP lặp lại nhiều lần liên tục khi user không phản hồi, tránh gây phiền hoặc loop vô hạn.
+- Dùng interactive feedback như một “chốt kiểm tra chất lượng”, không phải là rào cản.
+
+---
+
+## Ví dụ quy trình chuẩn
+
+```typescript
+// Sau khi hoàn thành một chức năng:
+await mcp_interactive-feedback-mcp_interactive_feedback({
+  project_directory: "/Users/amazingcpanel/Project/amactiktoklive",
+  summary: "Đã hoàn thành tính năng LoadingSpinner, tối ưu checkAuthStatus và bổ sung CSS animation. Bạn có cần bổ sung hoặc chỉnh sửa gì thêm không?"
+});
+// Chờ phản hồi, xử lý feedback nếu có. 
+// Chỉ xác nhận hoàn thành khi nhận được phản hồi như “tất cả đã xong” hoặc “không còn gì làm thêm”.

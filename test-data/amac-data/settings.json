@@ -1,0 +1,7 @@
+{
+  "theme": "dark",
+  "language": "vi",
+  "pageSize": 20,
+  "defaultAccountFormat": "username|password|email|emailpass|cookie",
+  "defaultProxyFormat": "ip:port:username:password"
+}

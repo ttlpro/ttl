@@ -1,0 +1,20 @@
+{
+  "notifications": {
+    "newRoom": {
+      "title": "Nouvelle salle détectée",
+      "body": "La salle \"{roomIdentifier}\" vient de commencer la diffusion."
+    },
+    "roomStopped": {
+      "title": "La salle s'est arrêtée",
+      "body": "La salle \"{roomIdentifier}\" a arrêté la diffusion."
+    },
+    "error": {
+      "title": "Une erreur est survenue",
+      "defaultMessage": "Une erreur s'est produite dans l'application."
+    },
+    "test": {
+      "title": "Notification de test",
+      "body": "Ceci est une notification de test. Si vous voyez cela, les notifications fonctionnent correctement."
+    }
+  }
+} 

@@ -1,0 +1,20 @@
+{
+  "notifications": {
+    "newRoom": {
+      "title": "发现新直播间",
+      "body": "直播间 \"{roomIdentifier}\" 刚刚开始直播。"
+    },
+    "roomStopped": {
+      "title": "直播间已停止",
+      "body": "直播间 \"{roomIdentifier}\" 已停止直播。"
+    },
+    "error": {
+      "title": "发生错误",
+      "defaultMessage": "应用程序中发生错误。"
+    },
+    "test": {
+      "title": "测试通知",
+      "body": "这是一条测试通知。如果您看到此通知，则表示通知功能正常工作。"
+    }
+  }
+} 

@@ -1,0 +1,20 @@
+{
+  "notifications": {
+    "newRoom": {
+      "title": "Phát hiện phòng mới",
+      "body": "Room \"{roomIdentifier}\" vừa bắt đầu phát sóng."
+    },
+    "roomStopped": {
+      "title": "Room đã dừng phát",
+      "body": "Room \"{roomIdentifier}\" đã dừng phát sóng."
+    },
+    "error": {
+      "title": "Đã xảy ra lỗi",
+      "defaultMessage": "Đã xảy ra lỗi trong ứng dụng."
+    },
+    "test": {
+      "title": "Thông báo thử nghiệm",
+      "body": "Đây là thông báo thử nghiệm. Nếu bạn thấy thông báo này, tính năng thông báo đang hoạt động bình thường."
+    }
+  }
+} 

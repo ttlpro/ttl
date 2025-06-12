@@ -1,0 +1,20 @@
+{
+  "notifications": {
+    "newRoom": {
+      "title": "新しいルームを検出",
+      "body": "ルーム \"{roomIdentifier}\" が配信を開始しました。"
+    },
+    "roomStopped": {
+      "title": "ルームが停止しました",
+      "body": "ルーム \"{roomIdentifier}\" が配信を停止しました。"
+    },
+    "error": {
+      "title": "エラーが発生しました",
+      "defaultMessage": "アプリケーションでエラーが発生しました。"
+    },
+    "test": {
+      "title": "テスト通知",
+      "body": "これはテスト通知です。この通知が表示されれば、通知機能は正常に動作しています。"
+    }
+  }
+} 

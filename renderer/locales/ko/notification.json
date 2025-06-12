@@ -1,0 +1,20 @@
+{
+  "notifications": {
+    "newRoom": {
+      "title": "새로운 방 감지됨",
+      "body": "\"{roomIdentifier}\" 방이 방송을 시작했습니다."
+    },
+    "roomStopped": {
+      "title": "방송이 중지됨",
+      "body": "\"{roomIdentifier}\" 방이 방송을 중지했습니다."
+    },
+    "error": {
+      "title": "오류가 발생했습니다",
+      "defaultMessage": "응용 프로그램에서 오류가 발생했습니다."
+    },
+    "test": {
+      "title": "테스트 알림",
+      "body": "이것은 테스트 알림입니다. 이 알림이 보이면 알림 기능이 정상적으로 작동하고 있습니다."
+    }
+  }
+} 

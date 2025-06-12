@@ -1,0 +1,203 @@
+name: Release Build
+
+on:
+  push:
+    tags:
+      - 'v*.*.*'
+  workflow_dispatch:
+    inputs:
+      version:
+        description: 'Version to release (e.g., 1.0.0)'
+        required: true
+        type: string
+
+jobs:
+  release:
+    strategy:
+      matrix:
+        os: [windows-latest, macos-latest, ubuntu-latest]
+    
+    runs-on: ${{ matrix.os }}
+    
+    steps:
+      - name: Check out Git repository
+        uses: actions/checkout@v4
+        
+      - name: Install Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '18'
+          cache: 'npm'
+          
+      - name: Install dependencies
+        run: npm ci
+        
+      - name: Build application
+        run: npm run build
+        
+      - name: Prepare build environment
+        shell: bash
+        run: |
+          if [[ "${{ matrix.os }}" == "macos-latest" ]]; then
+            # macOS code signing setup
+            echo "Setting up macOS code signing..."
+            # Add certificate to keychain
+            if [[ -n "${{ secrets.MACOS_CERTIFICATE }}" ]]; then
+              echo "${{ secrets.MACOS_CERTIFICATE }}" | base64 --decode > certificate.p12
+              security create-keychain -p "${{ secrets.MACOS_CERTIFICATE_PASSWORD }}" build.keychain
+              security default-keychain -s build.keychain
+              security unlock-keychain -p "${{ secrets.MACOS_CERTIFICATE_PASSWORD }}" build.keychain
+              security import certificate.p12 -k build.keychain -P "${{ secrets.MACOS_CERTIFICATE_PASSWORD }}" -T /usr/bin/codesign
+              security set-key-partition-list -S apple-tool:,apple:,codesign: -s -k "${{ secrets.MACOS_CERTIFICATE_PASSWORD }}" build.keychain
+            fi
+          elif [[ "${{ matrix.os }}" == "windows-latest" ]]; then
+            # Windows code signing setup
+            echo "Setting up Windows code signing..."
+            # Setup will be added when certificates are available
+          fi
+          
+      - name: Build and package for Windows
+        if: matrix.os == 'windows-latest'
+        run: |
+          npm run electron:build:win
+        env:
+          CSC_LINK: ${{ secrets.WINDOWS_CERTIFICATE }}
+          CSC_KEY_PASSWORD: ${{ secrets.WINDOWS_CERTIFICATE_PASSWORD }}
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          
+      - name: Build and package for macOS
+        if: matrix.os == 'macos-latest'
+        run: |
+          npm run electron:build:mac
+        env:
+          CSC_LINK: ${{ secrets.MACOS_CERTIFICATE }}
+          CSC_KEY_PASSWORD: ${{ secrets.MACOS_CERTIFICATE_PASSWORD }}
+          APPLE_ID: ${{ secrets.APPLE_ID }}
+          APPLE_ID_PASSWORD: ${{ secrets.APPLE_ID_PASSWORD }}
+          APPLE_TEAM_ID: ${{ secrets.APPLE_TEAM_ID }}
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          
+      - name: Build and package for Linux
+        if: matrix.os == 'ubuntu-latest'
+        run: |
+          npm run electron:build:linux
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          
+      - name: Generate checksums
+        shell: bash
+        run: |
+          cd dist
+          if [[ "${{ matrix.os }}" == "windows-latest" ]]; then
+            for file in *.exe; do
+              if [[ -f "$file" ]]; then
+                sha256sum "$file" > "$file.sha256"
+              fi
+            done
+          elif [[ "${{ matrix.os }}" == "macos-latest" ]]; then
+            for file in *.dmg; do
+              if [[ -f "$file" ]]; then
+                shasum -a 256 "$file" > "$file.sha256"
+              fi
+            done
+          else
+            for file in *.AppImage; do
+              if [[ -f "$file" ]]; then
+                sha256sum "$file" > "$file.sha256"
+              fi
+            done
+          fi
+          
+      - name: Upload build artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: ${{ matrix.os }}-build
+          path: |
+            dist/*.exe
+            dist/*.dmg
+            dist/*.AppImage
+            dist/*.sha256
+            dist/latest*.yml
+          retention-days: 7
+          
+  create-release:
+    needs: release
+    runs-on: ubuntu-latest
+    if: startsWith(github.ref, 'refs/tags/') || github.event_name == 'workflow_dispatch'
+    
+    steps:
+      - name: Check out Git repository
+        uses: actions/checkout@v4
+        
+      - name: Download all artifacts
+        uses: actions/download-artifact@v4
+        with:
+          path: artifacts/
+          
+      - name: Prepare release assets
+        run: |
+          mkdir -p release-assets
+          find artifacts/ -type f \( -name "*.exe" -o -name "*.dmg" -o -name "*.AppImage" -o -name "*.sha256" \) -exec cp {} release-assets/ \;
+          ls -la release-assets/
+          
+      - name: Extract version
+        id: version
+        run: |
+          if [[ "${{ github.event_name }}" == "workflow_dispatch" ]]; then
+            VERSION="${{ github.event.inputs.version }}"
+          else
+            VERSION=${GITHUB_REF#refs/tags/v}
+          fi
+          echo "version=$VERSION" >> $GITHUB_OUTPUT
+          echo "tag=v$VERSION" >> $GITHUB_OUTPUT
+          
+      - name: Generate release notes
+        id: release_notes
+        run: |
+          cat > release_notes.md << EOF
+          # TTL TikTok Live v${{ steps.version.outputs.version }}
+          
+          ## 🚀 Features
+          - Auto-update system with GitHub Releases integration
+          - Multi-language support (7 languages)
+          - Device fingerprinting and authentication
+          - Currency conversion for pricing analysis
+          - Theme switching (Light/Dark/System)
+          
+          ## 🔧 Improvements
+          - Enhanced UI/UX with better responsive design
+          - Improved error handling and user feedback
+          - Performance optimizations
+          - Better state management
+          
+          ## 🐛 Bug Fixes
+          - Fixed currency conversion calculations
+          - Resolved language persistence issues
+          - Improved IPC communication stability
+          
+          ## 📦 Downloads
+          - **Windows**: TTL-TikTok-Live-v${{ steps.version.outputs.version }}.exe
+          - **macOS**: TTL-TikTok-Live-v${{ steps.version.outputs.version }}.dmg  
+          - **Linux**: TTL-TikTok-Live-v${{ steps.version.outputs.version }}.AppImage
+          
+          ## ✅ Checksums
+          See individual .sha256 files for file integrity verification.
+          EOF
+          
+      - name: Create Release
+        uses: softprops/action-gh-release@v1
+        with:
+          tag_name: ${{ steps.version.outputs.tag }}
+          name: TTL TikTok Live v${{ steps.version.outputs.version }}
+          body_path: release_notes.md
+          draft: false
+          prerelease: false
+          files: |
+            release-assets/*
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          
+      - name: Update latest release
+        run: |
+          echo "✅ Release v${{ steps.version.outputs.version }} created successfully"
+          echo "🔗 Release URL: https://github.com/${{ github.repository }}/releases/tag/${{ steps.version.outputs.tag }}" 
